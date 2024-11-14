@@ -10,6 +10,7 @@
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles/resets.css">
+    <script src="scripts/app.js" defer></script>
     <title>Metropolitan Club</title>
 </head>
 
@@ -26,7 +27,7 @@
 
                 <li class="navigation__item">
 
-                    <a href="#" class="navigation__item__url">
+                    <a href="#" class="navigation__item__url --mobile__hide">
                         <p class="navigation__item__text">About Club</p>
                     </a>
 
@@ -38,7 +39,7 @@
                         </li>
 
                         <li class="navigation__dropdown__item">
-                            <a href="" class="navigation__dropdown__url">
+                            <a href="" class="navigation__dropdown__url ">
                                 <p class="navigation__dropdown__text">Office Bearers</p>
                             </a>
                         </li>
@@ -52,7 +53,7 @@
                 </li>
 
                 <li class="navigation__item">
-                    <a href="#" class="navigation__item__url">
+                    <a href="#" class="navigation__item__url --mobile__hide">
                         <p class="navigation__item__text">Explore</p>
                     </a>
 
@@ -82,8 +83,11 @@
                         <p class="navigation__item__text">Contact</p>
                     </a>
                 </li>
-                <div class="navigation__hamburger__icon"></div>
+
             </ul>
+            <div class="navigation__hamburger__icon">
+                <div class="navigation__hamburger__lines"></div>
+            </div>
         </div>
     </nav>
 
