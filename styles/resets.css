@@ -34,7 +34,10 @@ button {
 }
 
 body {
+  position: relative;
   font-family: "inter";
+  min-height: 100dvh;
+  border: green;
 }
 
 /*--- Resuable Styles ---*/
@@ -144,7 +147,7 @@ body {
   }
 }
 
-/*--- media queries ---*/
+/*---Navigation bar media queries ---*/
 
 @media all and (max-width: 33.75rem) {
   .navigation__items {
@@ -230,6 +233,49 @@ body {
   .navigation__dropdown__item + .navigation__dropdown__item {
     padding-top: 1rem;
   }
+}
+
+/*--- footer styles  ---*/
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  width: 100%;
+  padding-block: 1.2rem 0.6rem;
+  color: white;
+  background-color: var(--primary-clr);
+}
+
+.footer__icon__container {
+  display: flex;
+  gap: 1rem;
+  text-align: center;
+}
+
+.footer__icon {
+  max-width: 1.3rem;
+}
+
+.copyright__fineprint {
+  font-size: 0.8rem;
+}
+
+.footer__icon__link {
+  transition: transform 200ms ease-in;
+}
+
+.footer__icon__link:hover {
+  transform: scale(1.1);
+}
+
+.--backgroun-clr {
+  background-color: var(--footer-secondary-clr);
 }
 
 /*--- javascript Classes ----*/
