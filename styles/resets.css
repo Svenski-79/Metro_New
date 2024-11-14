@@ -17,12 +17,12 @@
   margin: 0;
 }
 
-* + * {
-  margin-top: 1.5em;
-}
-
 img {
   max-width: 100%;
+}
+
+a {
+  text-decoration: none;
 }
 
 li {
@@ -33,4 +33,203 @@ button {
   border: 0;
 }
 
-/*--- General Styles ---*/
+body {
+  font-family: "inter";
+}
+
+/*--- Resuable Styles ---*/
+
+/* >--- Navigation Bar Styles ---< */
+
+.navigation__bar {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+}
+
+.navigation__brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.5rem;
+  background-color: #fff;
+}
+
+.navigation__brand__logo {
+  max-width: 1.3rem;
+}
+
+.navigation__brand__name {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.navigation__items__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-clr);
+  min-height: 4rem;
+}
+
+.navigation__items {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 75%;
+  min-width: min(32rem, 100%);
+  max-width: 42rem;
+  font-size: 1.07rem;
+  font-weight: 500;
+}
+
+.navigation__item {
+  height: auto;
+  position: relative;
+  cursor: pointer;
+}
+
+.navigation__hamburger__icon {
+  display: none;
+}
+
+.navigation__dropdown {
+  position: absolute;
+  width: max-content;
+  left: 50%;
+  padding: 1.2rem 1.1rem 0 1.1rem;
+  border-radius: 4px;
+  background-color: var(--secondary-clr);
+
+  visibility: hidden;
+  pointer-events: none;
+  opacity: 0;
+  transform: translate(-50%);
+  transition: opacity 200ms ease-in-out, transform 200ms ease-in-out;
+}
+
+.navigation__item__text,
+.navigation__dropdown__text {
+  text-align: center;
+  color: #fff;
+  transition: all 150ms ease-in;
+}
+
+.navigation__item__text:hover,
+.navigation__dropdown__text:hover {
+  transform: scale(1.07);
+}
+
+.navigation__dropdown__item {
+  padding-bottom: 0.7rem;
+}
+
+.navigation__item:hover > .navigation__dropdown,
+.navigation__item > .navigation__item__url:focus + .navigation__dropdown {
+  visibility: visible;
+  pointer-events: all;
+  animation: reveal-dropdown 200ms ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes reveal-dropdown {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -1rem);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+/*--- media queries ---*/
+
+@media all and (max-width: 33.75rem) {
+  .navigation__items {
+    height: 0;
+    flex-direction: column;
+    justify-content: unset;
+    gap: 1rem;
+    min-width: unset;
+    margin-block: 1.5rem;
+    overflow: hidden;
+  }
+
+  .navigation__hamburger__icon {
+    align-self: self-start;
+    display: block;
+    cursor: pointer;
+  }
+
+  .navigation__hamburger__lines {
+    display: block;
+    width: 1.5rem;
+    height: 0.15rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    background-color: var(--accent-clr);
+    transition: transform 1s ease, opacity 0.3s ease;
+  }
+
+  .navigation__hamburger__lines::before,
+  .navigation__hamburger__lines::after {
+    position: absolute;
+    content: "";
+    width: 1.5rem;
+    height: 0.15rem;
+    border-radius: 10px;
+    background-color: var(--accent-clr);
+  }
+
+  .navigation__hamburger__lines::before {
+    transform: translateY(-0.4rem);
+  }
+
+  .navigation__hamburger__lines::after {
+    transform: translateY(0.4rem);
+  }
+
+  .navigation__hamburger__icon.open .navigation__hamburger__lines {
+    background-color: var(--secondary-clr);
+  }
+
+  .navigation__hamburger__icon.open .navigation__hamburger__lines::after {
+    transform: rotate(-45deg);
+    transition: transform 0.3s ease;
+  }
+  .navigation__hamburger__icon.open .navigation__hamburger__lines::before {
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+  }
+
+  .--mobile__hide {
+    display: none;
+  }
+
+  .navigation__dropdown {
+    position: unset;
+    display: block;
+    width: 100%;
+    padding: 0;
+    visibility: visible;
+    pointer-events: all;
+    opacity: 1;
+    transform: translate(0);
+  }
+
+  .navigation__item:hover > .navigation__dropdown,
+  .navigation__item > .navigation__item__url:focus + .navigation__dropdown {
+    animation: unset;
+  }
+
+  .navigation__dropdown__item {
+    padding: 0;
+  }
+  .navigation__dropdown__item + .navigation__dropdown__item {
+    padding-top: 1rem;
+  }
+}
+
+/*--- javascript Classes ----*/
