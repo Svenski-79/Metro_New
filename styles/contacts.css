@@ -1,0 +1,26 @@
+main{
+    margin: 8rem 0;
+}
+#contacts__heading{
+    text-align: center;
+}
+.contact__cards__container {
+    display: flex;
+    margin: 4rem auto;
+    overflow-x: auto;
+}
+.contact__cards__container::-webkit-scrollbar{
+    width: 0;
+}
+.contact__card{
+    display: flex;
+    flex-direction: column;
+    border: 1px red solid;
+    margin: 0 2rem;
+    min-width: 60vw;
+    aspect-ratio: 1/1;
+}
+.contact__card__img {
+    aspect-ratio: 1/1;
+    max-width: 4rem;
+}
