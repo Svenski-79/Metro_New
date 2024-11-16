@@ -34,9 +34,9 @@ button {
 }
 
 body {
-  position: relative;
   font-family: "inter";
   min-height: 100dvh;
+  border: 10px solid greenyellow;
 }
 
 /*--- Resuable Styles ---*/
@@ -238,8 +238,6 @@ body {
 /*--- footer styles  ---*/
 
 .footer {
-  position: relative;
-  bottom: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -248,7 +246,7 @@ body {
   gap: 0.6rem;
   width: 100%;
   padding-block: 1.2rem 0.6rem;
-  margin-top: 3rem;
+  /* margin-top: auto; */
   color: white;
   background-color: var(--primary-clr);
 }
@@ -264,6 +262,7 @@ body {
 }
 
 .copyright__fineprint {
+  text-align: center;
   font-size: 0.8rem;
 }
 
