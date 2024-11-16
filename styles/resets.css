@@ -36,7 +36,6 @@ button {
 body {
   font-family: "inter";
   min-height: 100dvh;
-  border: 10px solid greenyellow;
 }
 
 /*--- Resuable Styles ---*/
@@ -245,8 +244,8 @@ body {
   flex-wrap: wrap;
   gap: 0.6rem;
   width: 100%;
-  padding-block: 1.2rem 0.6rem;
-  /* margin-top: auto; */
+  padding-block: 1.2rem 1.6rem;
+  margin-top: 3rem;
   color: white;
   background-color: var(--primary-clr);
 }
