@@ -1,0 +1,106 @@
+* {
+  border: solid 1px red;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header,
+section {
+  margin: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 60rem;
+}
+
+header {
+  background: linear-gradient(to left, rgba(24, 22, 31, 0.1647058824), rgba(0, 0, 0, 0.8196078431)), url("../assets/index/aerial-shot-queensboro-bridge-buildings-new-york-city.jpg") center/cover no-repeat;
+  height: 90vh !important;
+}
+
+section:nth-child(even) {
+  background-color: beige;
+}
+
+main p {
+  color: rgb(79, 79, 79);
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+section > .container,
+header > .container {
+  padding: 4rem 2rem;
+  max-width: 80rem;
+  min-width: 80%;
+}
+
+p.about-us {
+  max-width: 40em;
+  padding: 1rem;
+}
+
+@keyframes corner-swap {
+  0% {
+    border-radius: 50% 0;
+  }
+  10% {
+    border-radius: 0 50%;
+  }
+  50% {
+    border-radius: 0 50%;
+  }
+  60% {
+    border-radius: 50% 0;
+  }
+  100% {
+    border-radius: 50% 0;
+  }
+}
+@keyframes corner-to-circle {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 1.2;
+    border-radius: 50%;
+  }
+}
+.about-us__imag-frags {
+  flex: 1;
+  width: 8rem;
+  margin: 1rem;
+  height: 8rem;
+  border: none;
+  border-radius: 25%;
+  box-shadow: 0 0 1rem lightgray;
+  animation: corner-swap 8s ease-in-out 0s infinite;
+}
+.about-us__imag-frags:hover {
+  animation: corner-to-circle 0.5s ease-in-out forwards;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
