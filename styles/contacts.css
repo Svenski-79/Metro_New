@@ -22,6 +22,7 @@ main{
     justify-self: stretch;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 0.5rem;
     text-align: center;
@@ -52,4 +53,50 @@ main{
 }
 }
 
-
+.get-in-touch__info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+#get-in-touch__map{
+    flex: 1 1 0;
+    align-self: stretch;
+    max-width: 30rem;
+    min-height: 20rem;
+}
+.get-in-touch__form{
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 20rem;
+}
+#get-in-touch__message{
+    height: 10rem;
+    resize: none;
+    overflow: auto;
+}
+.get-in-touch__input{
+    padding: 0.5rem;
+    background-color: #e7e7e7;
+    box-shadow: inset 0 0 0.3rem #d2d2d2;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.get-in-touch__input:focus{
+    outline: 1px solid gray;
+}
+#get-in-touch__button{
+    height: 2rem;
+    color: white;
+    background-color: #ef233c;
+    border-radius: 5px;
+}
+#get-in-touch__button:active{
+    color: #ef233c;
+    background-color: white;
+    outline: 1px solid #ef233c;
+}
