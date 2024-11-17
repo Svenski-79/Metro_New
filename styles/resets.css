@@ -35,7 +35,6 @@ button {
 }
 
 body {
-  display: grid;
   font-family: "inter";
   min-height: 100dvh;
 }
@@ -247,7 +246,6 @@ body {
   gap: 0.7rem;
   width: 100%;
   padding-block: 1.6rem;
-  margin-top: auto;
   color: white;
   background-color: var(--primary-clr);
 }
