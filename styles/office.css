@@ -11,7 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1.4rem;
+  gap: 2.4rem;
   flex-wrap: wrap;
   max-width: 90%;
   margin: 0 auto 3rem auto;
@@ -28,7 +28,7 @@
   border-radius: 10px;
   border: 1px solid rgba(199, 199, 199, 0.478);
   box-shadow: var(--drop-shadow-dark);
-  transition: transform 200ms ease-in;
+  transition: transform 150ms ease-in;
 }
 
 .office__bearer__image {
@@ -36,7 +36,7 @@
   aspect-ratio: 1/1;
   object-fit: cover;
   object-position: top;
-  border-radius: 4px;
+  border-radius: 6px;
   border: 1px solid rgba(199, 199, 199, 0.478);
 }
 
@@ -49,5 +49,5 @@
 }
 
 .office__bearer:hover {
-  transform: scale(1.02);
+  transform: scale(1.03);
 }
