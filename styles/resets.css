@@ -34,7 +34,6 @@ button {
 }
 
 body {
-  position: relative;
   font-family: "inter";
   min-height: 100dvh;
 }
@@ -238,17 +237,14 @@ body {
 /*--- footer styles  ---*/
 
 .footer {
-  position: relative;
-  bottom: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 0.6rem;
+  gap: 0.7rem;
   width: 100%;
-  padding-block: 1.2rem 0.6rem;
-  margin-top: 3rem;
+  padding-block: 1.6rem;
   color: white;
   background-color: var(--primary-clr);
 }
@@ -264,6 +260,7 @@ body {
 }
 
 .copyright__fineprint {
+  text-align: center;
   font-size: 0.8rem;
 }
 
