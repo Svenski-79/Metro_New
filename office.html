@@ -97,9 +97,29 @@
     <main class="office__bearers">
         <h2 class="office__bearers__title">Office Bearers</h2>
 
-        <dialog class="office__bearer__details">
+        <dialog class="office__details">
 
+            <div class="office__details__container">
+
+                <img class="office__details__image" src="assets/Office/praveen k.jpeg" alt="">
+                <div class="office__details__contents">
+
+                    <h1 class="office__details__title">More Info</h1>
+
+                    <p class="office__details__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                        corrupti ut veniam? Exercitationem amet minus quaerat aperiam ullam unde blanditiis cum et,
+                        inventore eos odio, numquam hic sapiente porro laudantium. Lorem, ipsum dolor sit amet
+                        consectetur adipisicing elit. Nostrum, ipsam a perferendis cum dolorem molestiae dolore
+                        praesentium adipisci asperiores dolorum Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iusto temporibus corrupti, deleniti ea quam, earum perferendis debitis voluptatum mollitia,
+                        recusandae qui optio impedit ducimus. Laudantium ratione obcaecati earum, consequatur dolor
+                        doloremque voluptatibus ducimus accusamus, neque eligendi tempora unde possimus! Enim!.</p>
+                </div>
+                <button class="office__details__close-btn" autofocus><img src="./assets/images/x-icon.svg"
+                        alt="Close button"></button>
+            </div>
         </dialog>
+
 
         <div class="office__bearers__container">
             <!-- <div class="office__bearer">
@@ -122,6 +142,10 @@
         <p class="copyright__fineprint">©2024 Metropolitan Club and Cultural Forum.All Rights Reserved</p>
     </footer>
 
+    <script>
+        const dialog = document.querySelector(".office__details")
+        dialog.showModal()
+    </script>
 </body>
 
 </html>
