@@ -2,32 +2,35 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="styles/resets.css">
-    <link rel="stylesheet" href="styles/index.css">
+        rel="stylesheet" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="styles/resets.css" />
+    <link rel="stylesheet" href="styles/support.css" />
+    <link rel="stylesheet" href="styles/index.css" />
     <script src="scripts/app.js" defer></script>
     <title>Metropolitan Club</title>
 </head>
 
 <body>
+    <script src="scripts/loader.js"></script>
     <nav class="navigation__bar">
-
         <div class="navigation__brand">
-            <img src="./assets/images/favicon.png" alt="Brand Logo" class="navigation__brand__logo">
+            <img src="./assets/images/favicon.png" alt="Brand Logo" class="navigation__brand__logo" />
             <h4 class="navigation__brand__name">Metropolitan Club</h4>
         </div>
 
         <div class="navigation__items__wrapper">
             <ul class="navigation__items">
-
                 <li class="navigation__item">
-
                     <a href="#" class="navigation__item__url --mobile__hide">
                         <p class="navigation__item__text">About Club</p>
                     </a>
@@ -40,7 +43,7 @@
                         </li>
 
                         <li class="navigation__dropdown__item">
-                            <a href="" class="navigation__dropdown__url ">
+                            <a href="" class="navigation__dropdown__url">
                                 <p class="navigation__dropdown__text">Office Bearers</p>
                             </a>
                         </li>
@@ -84,7 +87,6 @@
                         <p class="navigation__item__text">Contact</p>
                     </a>
                 </li>
-
             </ul>
             <div class="navigation__hamburger__icon">
                 <div class="navigation__hamburger__lines"></div>
@@ -92,92 +94,166 @@
         </div>
     </nav>
 
-
     <header id="hero">
+        <div id="slides">
+            <img id="slide-image" />
+            <img id="slide-image-over" />
+        </div>
+        <div id="gradient"></div>
         <div class="container">
+            <h5>Elevate Your Lifestyle</h5>
+            <h1 class="h-plus">METROPOLITAN CLUB</h1>
+            <div class="carousel-container">
+                <div class="owl-carousel">
+                    <p class="about-us">
+                        The Metropolitan Club was founded by socially conscious
+                        businesspeople, professionals, and people with a range of
+                        interests who live in and around North Paravoor.
+                    </p>
+                    <p class="about-us">
+                        Even in busy metropolis of city, the place provides a peaceful
+                        atmosphere. The club is conveniently located in Nanthiyatukunnam,
+                        approximately 2.25 km from Paravoor town.
+                    </p>
+                </div>
+            </div>
+        </div>
         </div>
     </header>
 
-
-
     <main>
-
         <section id="about-us">
-            <div class="container" style="display: flex; flex-direction: column; align-items: center; justify-content: space-between;;">
-                <div style="display:flex;">
-                    <img src="" alt="" class="about-us__imag-frags" >
-                    <div class="about-us__imag-frags" style="width: 100%;">
-                        <h5> # about-us</h5>
-                        <h1>We are Metropolitan Club</h1>
-                    </div>
-                    <img src="" alt="" class="about-us__imag-frags">
+            <div class="container">
+                <div class="hero-card">
+                    <h2>440+</h2>
+                    <br />
+                    <h5>Members</h5>
                 </div>
-                <div style="display: flex;">
-                    <div>
-                        450+ Members
-                    </div>
-                    <div>
-                        <p class="about-us">The Metropolitan Club was founded by socially conscious businesspeople, professionals, and people with a range of interests who live in and around North Paravoor. </p>
-                        <p class="about-us">Even in busy metropolis of city, the place provides a peaceful  atmosphere. The club is conveniently located in Nanthiyatukunnam, approximately 2.25 km from Paravoor town. </p>
-                    </div>
-                    <div>
-                        450+ Members
-                    </div>
+                <div class="hero-card">
+                    <h2>15+</h2>
+                    <br />
+                    <h5>Years</h5>
                 </div>
-                <div style="display:flex; justify-content: space-evenly;">
-                    <img src="" alt="" class="about-us__imag-frags">
-                    <img src="" alt="" class="about-us__imag-frags">
-                    <img src="" alt="" class="about-us__imag-frags">
-                    <img src="" alt="" class="about-us__imag-frags">
-                    <img src="" alt="" class="about-us__imag-frags">
-                    <img src="" alt="" class="about-us__imag-frags">
-                    <img src="" alt="" class="about-us__imag-frags">
-                    <img src="" alt="" class="about-us__imag-frags">
+                <div class="hero-card">
+                    <h2>24+</h2>
+                    <br />
+                    <h5>Affiliated&nbsp;Clubs</h5>
                 </div>
             </div>
         </section>
-
 
         <section id="facilities">
             <div class="container">
+                <h5>#Facilities</h5>
+                <h1>Our Exclusive Amenities</h1>
+                <div class="card-list">
+                    <div class="card">
+                        <img style="background-color: rgb(210, 37, 106)" src="assets/icons/badminton.svg" />
+                        <h6>Badminton</h6>
+                    </div>
+                    <div class="card">
+                        <img style="background-color: rgb(31, 200, 73)" src="assets/icons/snooker.svg" />
+                        <h6>Snooker</h6>
+                    </div>
+                    <div class="card">
+                        <img style="background-color: rgb(255, 162, 49)" src="assets/icons/kettlebell.svg" />
+                        <h6>Gym</h6>
+                    </div>
+                    <div class="card">
+                        <img style="background-color: rgb(255, 62, 62)" src="assets/icons/living-room.svg" />
+                        <h6>Waiting Area</h6>
+                    </div>
+                    <div class="card">
+                        <img style="background-color: rgb(29, 189, 181)" src="assets/icons/swimming-pool.svg" />
+                        <h6>Swimming Pool</h6>
+                    </div>
+                    <div class="card">
+                        <img style="background-color: rgb(39, 86, 215)" src="assets/icons/chair.svg" />
+                        <h6>Permit Room</h6>
+                    </div>
+                    <div class="card">
+                        <img style="background-color: rgb(194, 26, 147)" src="assets/icons/room.svg" />
+                        <h6>Private Room</h6>
+                    </div>
+                </div>
+                <p>
+                    we pride ourselves on offering a range of luxurious amenities designed to enhance your
+                    lifestyle.<br> Our facilities are crafted to provide comfort, convenience, and a touch of elegance
+                </p>
+                <a class="btn" href="facilities.html">
+                    Facilities in detail >>>
+                </a>
+            </div>
+        </section>
 
-            </div>
-        </section>
         <section id="affiliated-clubs">
-            <div class="container d-flex">
-                <div>
-                    <h1>24+<h1>Affiliated Clubs
+            <div class="container">
+                <div class="content d-flex mobile-collapse">
+                    <div>
+                        <h1 class="h-plus">24+</h1>
+                        <h1>Affiliated Clubs</h1>
+                    </div>
+                    <div class="p-relative">
+                        <p>
+                            We have a rapidly expanding network of affiliated clubs spread throughout Kerala, fostering
+                            a vibrant community. Our clubs offer a variety of activities and amenities, ensuring that
+                            members can enjoy a rich and fulfilling experience wherever they are located.
+                        </p>
+                        <a class="btn" href="affiliated-clubs.html">
+                            List of Clubs&nbsp; &nbsp;>>>
+                        </a>
+                    </div>
                 </div>
-                <div>
-                    <div class="marquee">This is a loop scrolling text.</div>
-                    <button type="button">view affiliated-clubs</button>
-                </div>
+                <img src="assets/index/clubs-people.svg" alt="">
             </div>
         </section>
+
         <section id="latest-events">
             <div class="container">
-                <h1>Latest Events</h1>
+                <img src="assets/icons/spirals-of-vines.svg">
+                <h1>Club Chronicles</h1>
+                <h5>Latest Events</h5>
+                <div class="hr"></div>
+                <ul id="event-list" class="owl-carousel">
+                </ul>
+                <div class="hr"></div>
+                <a href="latest-events.html" class="btn">View&nbsp;All&nbsp;Events</a>
             </div>
         </section>
+
         <section id="tourist-attractions">
             <div class="container">
+                <h1>Discover Nearby Attractions</h1>
+                <img src="assets/index/nearby-attractions.svg" alt="illustration" class="illustration">
+                <div class="marquee">
+                    <ul class="attractions-list d-flex marquee-1"></ul>
+                    <ul class="attractions-list d-flex marquee-2"></ul>
+                    <ul class="attractions-list d-flex marquee-3"></ul>
+                    <ul class="attractions-list d-flex marquee-4"></ul>
+                </div>
+                <a class="btn" href="nearby-attractions.html">
+                    Discover >>>
+                </a>
             </div>
         </section>
     </main>
 
-
     <footer class="footer">
-        <div class="footer__icon__container  --background-clr">
+        <div class="footer__icon__container --background-clr">
             <a href="" class="footer__icon__link"><img class="footer__icon"
-                    src="assets/images/iconmonstr-facebook-4.svg" alt="Facebook Icon"></a>
+                    src="assets/images/iconmonstr-facebook-4.svg" alt="Facebook Icon" /></a>
             <a href="" class="footer__icon__link"><img class="footer__icon" src="assets/images/iconmonstr-email-10.svg"
-                    alt="Email Icon"></a>
+                    alt="Email Icon" /></a>
             <a href="" class="footer__icon__link"><img class="footer__icon" src="assets/images/iconmonstr-phone-8.svg"
-                    alt="Phone Icon"></a>
+                    alt="Phone Icon" /></a>
         </div>
-        <p class="copyright__fineprint">©2024 Metropolitan Club and Cultural Forum. All Rights Reserved</p>
+        <p class="copyright__fineprint">
+            ©2024 Metropolitan Club and Cultural Forum. All Rights Reserved
+        </p>
     </footer>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script src="scripts/index.js"></script>
 </body>
 
 </html>
