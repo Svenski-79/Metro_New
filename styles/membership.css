@@ -1,0 +1,77 @@
+.membership {
+  margin-top: 6.4rem;
+  background-color: var(--primary-clr);
+}
+
+.membership__content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-inline: 2rem;
+  margin: 0 auto;
+  text-align: left;
+  border-radius: 10px;
+  background-color: var(--accent-clr);
+}
+
+.membership__highlight {
+  display: flex;
+  flex-direction: column;
+  padding-block: 1.5rem;
+  border: 1px solid red;
+}
+
+.membership__club-logo {
+  max-width: 10rem;
+}
+
+.membership__duration {
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  color: var(--primary-clr);
+}
+
+.membership__fineprint {
+  font-size: 0.875rem;
+  font-style: italic;
+  margin-top: 0.4rem;
+  color: #505050;
+}
+
+.membership__perks {
+  display: flex;
+  flex-direction: column;
+  align-content: ;
+  gap: 1rem;
+  padding-block: 1.5rem;
+  text-align: right;
+  border: 1px solid red;
+}
+
+.membership__privileges {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.membership__text--highlight {
+  text-transform: uppercase;
+}
+
+.membership__join-us {
+  font-size: 4.5rem;
+  font-weight: 900;
+  line-height: 1.25ch;
+  color: var(--secondary-clr);
+}
+
+.membership__form__download {
+  display: block;
+  max-width: fit-content;
+  font-size: 1.125rem;
+  font-weight: 500;
+  padding: 1rem 1.5rem;
+  margin-left: auto;
+  border-radius: 10px;
+  color: white;
+  background-color: var(--primary-clr);
+}
