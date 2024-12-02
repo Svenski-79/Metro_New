@@ -60,3 +60,8 @@ section > .container p::after {
   font-size: 4rem;
   display: block;
 }
+section > .container img {
+  max-width: 40rem;
+  margin: auto;
+  max-height: 24rem;
+}

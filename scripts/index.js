@@ -65,8 +65,9 @@ fetch('scripts/latest-events.json')
 
 
 $(document).ready(function () {
-    setTimeout(() => 
-        $(".owl-carousel").owlCarousel({ loop: true, autoplay: true, items: 1, center: true }), 300)
+
+    setTimeout(() => $(".owl-carousel").owlCarousel({ loop: true, autoplay: true, items: 1, center: true }), 300)
+
     const slideSRC = ["assets/index/slides/slide-1.webp", "assets/index/slides/slide-2.webp"];
     const slideCount = slideSRC.length;
     let slideNumber = -1;

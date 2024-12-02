@@ -9,9 +9,9 @@ loaderContainer.appendChild(loader)
 document.querySelector("body").prepend(loaderContainer)
 
 document.addEventListener("DOMContentLoaded", function() {
-    loaderContainer.style.animation = "fade-out .3s .5s linear";
+    loaderContainer.style.animation = "fade-out .5s .5s linear";
 
     setTimeout(function() {
         loaderContainer.style.display = "none";
-    }, 800);
+    }, 1000);
 });
