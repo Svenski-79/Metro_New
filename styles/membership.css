@@ -1,24 +1,23 @@
 .membership {
-  margin-top: 6.4rem;
+  margin-top: 6.3rem;
   background-color: var(--primary-clr);
 }
 
 .membership__content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 1.5rem;
   flex-wrap: wrap;
+  padding-block: 3rem;
   padding-inline: 2rem;
   margin: 0 auto;
   text-align: left;
-  border-radius: 10px;
   background-color: var(--accent-clr);
 }
 
 .membership__highlight {
   display: flex;
   flex-direction: column;
-  padding-block: 1.5rem;
-  border: 1px solid red;
 }
 
 .membership__club-logo {
@@ -41,11 +40,9 @@
 .membership__perks {
   display: flex;
   flex-direction: column;
-  align-content: ;
+  justify-content: space-evenly;
   gap: 1rem;
-  padding-block: 1.5rem;
   text-align: right;
-  border: 1px solid red;
 }
 
 .membership__privileges {
@@ -74,4 +71,63 @@
   border-radius: 10px;
   color: white;
   background-color: var(--primary-clr);
+}
+
+.scroller {
+  width: 100%;
+  background-color: var(--primary-clr);
+}
+
+.scroller__inner {
+  padding-block: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.scroller[data-animated="true"] {
+  overflow: hidden;
+  /* -webkit-mask: linear-gradient(
+    90deg,
+    transparent,
+    white 10%,
+    white 90%,
+    transparent
+  );
+  mask: linear-gradient(90deg, transparent, white 10%, white 90%, transparent); */
+}
+
+.scroller[data-animated="true"] .scroller__inner {
+  width: max-content;
+  flex-wrap: nowrap;
+  animation: scroll var(--_animation-duration, 40s)
+    var(--_animation-direction, forwards) linear infinite;
+}
+
+.scroller__inner img {
+  max-width: 14rem;
+  aspect-ratio: 3/2;
+  border: 1px solid rgba(188, 188, 188, 0.268);
+  border-radius: 5px;
+}
+
+.scroller[data-direction="right"] {
+  --_animation-direction: reverse;
+}
+
+.scroller[data-direction="left"] {
+  --_animation-direction: forwards;
+}
+
+.scroller[data-speed="fast"] {
+  --_animation-duration: 5s;
+}
+
+.scroller[data-speed="slow"] {
+  --_animation-duration: 50s;
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% - 0.5rem));
+  }
 }

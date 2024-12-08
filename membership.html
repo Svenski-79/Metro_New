@@ -11,6 +11,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="styles/resets.css">
     <link rel="stylesheet" href="styles/membership.css">
+    <script src="scripts/membership.js" defer></script>
     <script src="scripts/app.js" defer></script>
     <title>Metropolitan Club</title>
 </head>
@@ -93,15 +94,26 @@
     </nav>
 
     <main class="membership">
-        <div class="infinite-scroll"></div>
+        <div class="scroller " data-direction="right" data-speed="slow" data-count=15>
+            <div class="scroller__inner">
+                <!-- <img src="https://i.pravatar.cc/150?img=1" alt="" />
+                <img src="https://i.pravatar.cc/150?img=2" alt="" />
+                <img src="https://i.pravatar.cc/150?img=3" alt="" />
+                <img src="https://i.pravatar.cc/150?img=4" alt="" />
+                <img src="https://i.pravatar.cc/150?img=5" alt="" />
+                <img src="https://i.pravatar.cc/150?img=6" alt="" /> -->
+            </div>
+        </div>
 
         <div class="membership__content">
+
             <div class="membership__highlight">
                 <img class="membership__club-logo" src="assets/images/favicon.png" alt="Metropolitan club logo">
                 <h4 class="membership__duration">Membership of a Lifetime,<br>
                     Now and forever!!!</h4>
                 <p class="membership__fineprint">*Contact our representatives for further details.</p>
             </div>
+
             <div class="membership__perks">
                 <p class="membership__privileges">Unlock your access to <br>
                     <span class="membership__text--highlight">exclusive club events and privileges.</span>
@@ -111,7 +123,16 @@
             </div>
         </div>
 
-        <div class="infinite-scroll"></div>
+        <div class="scroller " data-direction="left" data-speed="slow" data-count=15>
+            <div class="scroller__inner">
+                <!-- <img src="https://i.pravatar.cc/150?img=1" alt="" />
+                <img src="https://i.pravatar.cc/150?img=2" alt="" />
+                <img src="https://i.pravatar.cc/150?img=3" alt="" />
+                <img src="https://i.pravatar.cc/150?img=4" alt="" />
+                <img src="https://i.pravatar.cc/150?img=5" alt="" />
+                <img src="https://i.pravatar.cc/150?img=6" alt="" /> -->
+            </div>
+        </div>
     </main>
 
     <footer class="footer --background-clr">
