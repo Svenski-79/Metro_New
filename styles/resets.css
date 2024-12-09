@@ -94,6 +94,21 @@ body {
   cursor: pointer;
 }
 
+.navigation__item::after{
+  position: absolute;
+  content: "";
+  height: 0.15rem;
+  width: 0%;
+  background-color: white;
+  bottom: 0.2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: width 300ms;
+}
+.navigation__item:hover::after {
+  width: 1.75rem;
+}
+
 .navigation__hamburger__icon {
   display: none;
 }
@@ -120,7 +135,6 @@ body {
   transition: all 150ms ease-in;
 }
 
-.navigation__item__text:hover,
 .navigation__dropdown__text:hover {
   transform: scale(1.07);
 }
