@@ -272,7 +272,7 @@ body {
   transform: scale(1.1);
 }
 
-.--backgroun-clr {
+.--background-clr {
   background-color: var(--footer-secondary-clr);
 }
 
