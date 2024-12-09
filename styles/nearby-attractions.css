@@ -1,0 +1,36 @@
+.card {
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  max-width: 48rem;
+  width: 100%;
+  box-shadow: 0rem 1rem 2rem rgb(207, 215, 218);
+  overflow: hidden;
+}
+.card img {
+  height: 20rem;
+  padding-bottom: 1rem;
+  width: 100%;
+  border-bottom-left-radius: 50% 25%;
+  border-bottom-right-radius: 50% 25%;
+  transform: scale(1.1) translateY(-10%);
+}
+.card h5 {
+  transform: translateY(-1.6rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  float: right;
+  color: white;
+  background-color: darkred;
+}
+.card > div {
+  padding: 0 3rem 3.6rem;
+  position: relative;
+  width: 100%;
+}
+.card p {
+  padding-top: 1.6rem;
+}

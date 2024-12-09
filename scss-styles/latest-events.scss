@@ -1,0 +1,66 @@
+section:nth-child(odd) {
+    background-color: #fffbf2;
+}
+
+section > .container {
+    gap: 2rem;
+    max-width: 80rem;
+    display: block;
+    & h5 {
+        color: #e8003e45;
+        text-shadow: -4px 0 0 #9e002a;
+        flex: 1 1 100%;
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+    & h2 {
+        padding-bottom: 1.6rem;
+        margin-bottom: 2rem;
+        border-bottom: solid lightgray;
+    }
+    & .body {
+        flex-wrap: wrap;
+        display: flex;
+        gap: 3rem;
+        & .carousal {
+            object-fit: contain;
+            min-width: 32rem;
+            flex: 2 2 40%; 
+            & img {
+                box-sizing: border-box;
+                padding: .5rem;
+                border-radius: 1rem;
+            }
+        }
+        & .content {
+            min-width: 36rem;
+            flex: 2 2 50%;
+        }
+    }
+    & p {
+        padding-top: 2rem;
+        line-height: 1.5em;
+    }
+    & br {
+        content: "";
+        display: block;
+        padding-top: 1rem;
+    }
+    & p::first-letter {
+        font-weight: Bold;
+        font-size: 2rem;
+    }
+    & p::after {
+        content: "..."; 
+        text-align: right;
+        color: #e8003c;
+        padding-top: .5rem;
+        font-size: 4rem;
+        display: block;
+    }
+    & img {
+        max-width: 40rem;
+        margin: auto;
+        max-height: 24rem;
+    }
+}
