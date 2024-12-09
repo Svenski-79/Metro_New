@@ -5,8 +5,8 @@
   --accent-clr: #ffde4a;
   --text-fineprint-clr: #858585;
   --footer-secondary-clr: #252525;
-  --drop-shadow-dark: rgba(0, 0, 0, 0.19) 0px 10px 15px,
-                      rgba(0, 0, 0, 0.23) 0px 6px 12px
+  --drop-shadow-dark: rgba(0, 0, 0, 0.19) 0px 10px 14px,
+    rgba(0, 0, 0, 0.23) 0px 6px 12px;
 }
 
 /*--- CSS style resets ---*/
