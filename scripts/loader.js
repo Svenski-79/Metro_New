@@ -10,6 +10,7 @@ document.querySelector("body").prepend(loaderContainer)
 
 document.addEventListener("DOMContentLoaded", function() {
     loaderContainer.style.animation = "fade-out .5s .5s linear";
+    window.scrollTo(0, 0);
 
     setTimeout(function() {
         loaderContainer.style.display = "none";

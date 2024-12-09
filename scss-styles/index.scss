@@ -66,8 +66,8 @@ header {
     }
 
     & .container {
-        // display: block;
         margin: 0;
+        padding-bottom: 8rem !important;
         max-width: none;
         width: 100% !important;
         -webkit-backdrop-filter: blur(0rem);
@@ -76,7 +76,7 @@ header {
         display: flex;
         align-items: center;
         justify-content: center;
-        background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0));
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0));
         & > * {
             padding-right: 2rem;
             padding-left: 2rem;
@@ -105,8 +105,8 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
-        line-height: clamp(4rem, 8vw, 8rem);
-        font-size: clamp(4rem, 8vw, 8rem);
+        line-height: clamp(1em, 8vw, 1em);
+        font-size: clamp(3rem, 8vw, 6rem);
         padding-bottom: 2rem;
         
         background: linear-gradient(to top, rgb(169, 0, 0), rgb(255, 86, 86));
@@ -120,8 +120,8 @@ header {
         text-align: center;
         font-weight: 500;
         color: white;
-        padding-bottom: 2rem;
-        opacity: .6;
+        padding-bottom: 1.5rem;
+        opacity: .8;
     }    
 }
 
@@ -138,8 +138,6 @@ section {
     
     & h5 {
         color: red;
-        font-weight: normal;
-        padding-bottom: .5em;
     }
 }
 

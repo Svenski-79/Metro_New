@@ -94,7 +94,8 @@ body {
   cursor: pointer;
 }
 
-.navigation__item::after{
+.navigation__item__text::after,
+.navigation__dropdown__text::after {
   position: absolute;
   content: "";
   height: 0.15rem;
@@ -105,7 +106,9 @@ body {
   transform: translateX(-50%);
   transition: width 300ms;
 }
-.navigation__item:hover::after {
+
+.navigation__item__text:hover::after,
+.navigation__dropdown__text:hover::after {
   width: 1.75rem;
 }
 
@@ -128,8 +131,24 @@ body {
   transition: opacity 200ms ease-in-out, transform 200ms ease-in-out;
 }
 
+.--drop-downable::before {
+  content: url("../assets/icons/dropdown.svg");
+  position: absolute;
+  color: white;
+  width: 1rem;
+  right: -1.2em;
+  padding-top: .24rem;
+  /* transform-origin: top; */
+  /* top: .5rem; */
+  /* border: solid 1px red; */
+  transition: .2s;
+}
+.--drop-downable:hover::before {
+  transform: rotate(-180deg);
+}
 .navigation__item__text,
 .navigation__dropdown__text {
+  padding: .3em 0;
   text-align: center;
   color: #fff;
   transition: all 150ms ease-in;
@@ -143,8 +162,8 @@ body {
   padding-bottom: 0.7rem;
 }
 
-.navigation__item:hover > .navigation__dropdown,
-.navigation__item > .navigation__item__url:focus + .navigation__dropdown {
+.navigation__item:hover>.navigation__dropdown,
+.navigation__item>.navigation__item__url:focus+.navigation__dropdown {
   visibility: visible;
   pointer-events: all;
   animation: reveal-dropdown 200ms ease-in-out;
@@ -156,6 +175,7 @@ body {
     opacity: 0;
     transform: translate(-50%, -1rem);
   }
+
   to {
     opacity: 1;
     transform: translate(-50%, 0);
@@ -217,6 +237,7 @@ body {
     transform: rotate(-45deg);
     transition: transform 0.3s ease;
   }
+
   .navigation__hamburger__icon.open .navigation__hamburger__lines::before {
     transform: rotate(45deg);
     transition: transform 0.3s ease;
@@ -237,15 +258,16 @@ body {
     transform: translate(0);
   }
 
-  .navigation__item:hover > .navigation__dropdown,
-  .navigation__item > .navigation__item__url:focus + .navigation__dropdown {
+  .navigation__item:hover>.navigation__dropdown,
+  .navigation__item>.navigation__item__url:focus+.navigation__dropdown {
     animation: unset;
   }
 
   .navigation__dropdown__item {
     padding: 0;
   }
-  .navigation__dropdown__item + .navigation__dropdown__item {
+
+  .navigation__dropdown__item+.navigation__dropdown__item {
     padding-top: 1rem;
   }
 }

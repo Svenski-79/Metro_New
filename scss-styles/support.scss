@@ -4,52 +4,50 @@
 
 
 :root {
-    font-size: 12px;
+    font-size: 14px;
+}
 
-    & h1 {
-        padding-bottom: .5em;
-        font-weight: 800;
-        font-size: 2.5rem;
-    }
+h1 {
+    padding-bottom: .5em;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
 
-    & h2 {
-        padding-bottom: .5em;
-        font-weight: bold;
-        font-size: 2.2rem;
-    }
+h2 {
+    padding-bottom: .5em;
+    font-weight: bold;
+    font-size: 2.2rem;
+}
 
-    & h3 {
-        padding-bottom: .5em;
-        font-weight: bold;
-        font-size: 1.9rem;
-    }
+h3 {
+    padding-bottom: .5em;
+    font-weight: bold;
+    font-size: 1.9rem;
+}
 
-    & h4 {
-        padding-bottom: .5em;
-        font-weight: bold;
-        font-size: 1.6rem;
-    }
+h4 {
+    padding-bottom: .5em;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
 
-    & h5 {
-        padding-bottom: .5em;
-        padding-bottom: .5em;
-        font-weight: bold;
-        font-size: 1.3rem;
-    }
+h5 {
+    padding-bottom: .5em;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
 
-    & h6 {
-        padding-bottom: .5em;
-        font-weight: bold;
-        font-size: 1rem;
-    }
+h6 {
+    padding-bottom: .5em;
+    font-weight: bold;
+    font-size: 1rem;
+}
 
-    & p {
-        padding-bottom: .5em;
-        color: rgb(79, 79, 79);
-        line-height: 1.6em;
-        font-size: 1rem;
-    }
-
+p {
+    padding-bottom: .5em;
+    color: rgb(79, 79, 79);
+    line-height: 1.6em;
+    font-size: 1rem;
 }
 
 body {
@@ -219,6 +217,7 @@ img {
     from {
         opacity: 1;
     }
+
     to {
         opacity: 0;
 
@@ -228,7 +227,7 @@ img {
 .loader-container {
     z-index: 9999;
     top: 0;
-    left: 0; 
+    left: 0;
     right: 0;
     bottom: 0;
     position: fixed;
