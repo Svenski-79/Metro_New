@@ -6,7 +6,7 @@ mobileNavigationToggle.addEventListener("click", function () {
   let navigationLinks = this.parentNode.children[0];
   let finalNavHeight = navigationLinks.scrollHeight;
   this.classList.toggle("open");
-  if (navigationLinks.offsetHeight == 0) {
+  if (this.classList.contains("open")) {
     navigationLinks.animate(
       [{ height: 0 }, { height: `${finalNavHeight}px` }],
       {

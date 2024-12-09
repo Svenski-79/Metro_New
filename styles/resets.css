@@ -64,6 +64,7 @@ body {
 }
 
 .navigation__brand__name {
+  padding: 0;
   font-size: 1rem;
   font-weight: 300;
 }
