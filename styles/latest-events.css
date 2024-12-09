@@ -1,0 +1,67 @@
+section:nth-child(odd) {
+  background-color: #fffbf2;
+}
+
+section > .container {
+  gap: 2rem;
+  max-width: 80rem;
+  display: block;
+}
+section > .container h5 {
+  color: rgba(232, 0, 62, 0.2705882353);
+  text-shadow: -4px 0 0 #9e002a;
+  flex: 1 1 100%;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+section > .container h2 {
+  padding-bottom: 1.6rem;
+  margin-bottom: 2rem;
+  border-bottom: solid lightgray;
+}
+section > .container .body {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 3rem;
+}
+section > .container .body .carousal {
+  -o-object-fit: contain;
+     object-fit: contain;
+  min-width: 32rem;
+  flex: 2 2 40%;
+}
+section > .container .body .carousal img {
+  box-sizing: border-box;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+section > .container .body .content {
+  min-width: 36rem;
+  flex: 2 2 50%;
+}
+section > .container p {
+  padding-top: 2rem;
+  line-height: 1.5em;
+}
+section > .container br {
+  content: "";
+  display: block;
+  padding-top: 1rem;
+}
+section > .container p::first-letter {
+  font-weight: Bold;
+  font-size: 2rem;
+}
+section > .container p::after {
+  content: "...";
+  text-align: right;
+  color: #e8003c;
+  padding-top: 0.5rem;
+  font-size: 4rem;
+  display: block;
+}
+section > .container img {
+  max-width: 40rem;
+  margin: auto;
+  max-height: 24rem;
+}

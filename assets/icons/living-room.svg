@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="fi_6842139"
+   enable-background="new 0 0 510 510"
+   height="512"
+   viewBox="0 0 510 510"
+   width="512"
+   version="1.1"
+   sodipodi:docname="living-room.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.5722656"
+     inkscape:cx="256"
+     inkscape:cy="256"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="351"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="fi_6842139" />
+  <g
+     id="XMLID_26_"
+     style="fill:#ffffff">
+    <path
+       id="XMLID_733_"
+       d="m310 120h120c5.522 0 10-4.478 10-10v-60c0-5.522-4.478-10-10-10h-120c-5.522 0-10 4.478-10 10v60c0 5.522 4.478 10 10 10zm10-60h100v40h-100z"
+       style="fill:#ffffff" />
+    <path
+       id="XMLID_740_"
+       d="m480 271.266v-41.266c0-22.056-17.944-40-40-40h-155c-11.938 0-22.665 5.264-30 13.585-7.335-8.321-18.062-13.585-30-13.585h-85v-50h60c6.321 0 11.041-5.791 9.806-11.961l-20-100c-.935-4.675-5.039-8.039-9.806-8.039h-40v-10c0-5.523-4.477-10-10-10-5.522 0-10 4.477-10 10v10h-40c-4.767 0-8.871 3.364-9.806 8.039l-20 100c-1.235 6.173 3.488 11.961 9.806 11.961h60v50h-50c-22.056 0-40 17.944-40 40v41.266c-17.233 4.452-30 20.13-30 38.734v120c0 18.604 12.767 34.282 30 38.734v31.266c0 5.522 4.478 10 10 10h40c5.522 0 10-4.478 10-10v-30h330v30c0 5.522 4.478 10 10 10h40c5.522 0 10-4.478 10-10v-31.266c17.233-4.452 30-20.13 30-38.734 0-27.008 0-95.416 0-120 0-18.604-12.767-34.282-30-38.734zm-391.802-231.266h83.604l16 80h-115.604zm401.802 270v90h-40v-90c0-11.028 8.972-20 20-20s20 8.972 20 20zm-410 90v-30h350v30zm205-190h155c11.028 0 20 8.972 20 20v41.266c-17.233 4.452-30 20.13-30 38.734v40h-165v-120c0-11.028 8.972-20 20-20zm-215 0h155c11.028 0 20 8.972 20 20v120h-165v-40c0-18.604-12.767-34.282-30-38.734v-41.266c0-11.028 8.972-20 20-20zm-50 100c0-11.028 8.972-20 20-20s20 8.972 20 20v90h-40zm50 180h-20v-20h20zm390 0h-20v-20h20zm30-60c0 11.028-8.972 20-20 20-18.117 0-393.877 0-430 0-11.028 0-20-8.972-20-20v-10h470z"
+       style="fill:#ffffff" />
+    <path
+       id="XMLID_764_"
+       d="m300 160h140c22.056 0 40-17.944 40-40v-80c0-22.056-17.944-40-40-40h-140c-22.056 0-40 17.944-40 40v80c0 22.056 17.944 40 40 40zm-20-120c0-11.028 8.972-20 20-20h140c11.028 0 20 8.972 20 20v80c0 11.028-8.972 20-20 20h-140c-11.028 0-20-8.972-20-20z"
+       style="fill:#ffffff" />
+  </g>
+</svg>

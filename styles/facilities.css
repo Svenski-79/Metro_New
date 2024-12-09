@@ -1,0 +1,34 @@
+section:nth-child(odd) {
+  background-color: #fffbf2;
+}
+
+section > .container {
+  gap: 2rem;
+  max-width: 80rem;
+  flex-wrap: wrap;
+}
+section > .container img {
+  border-radius: 1rem;
+  max-width: 32rem;
+  width: 100%;
+}
+section > .container div {
+  max-width: 40rem;
+  width: 100%;
+}
+section > .container div img {
+  padding: 1.2rem;
+  width: 6rem;
+  background-color: #e8003c;
+  margin-bottom: 3rem;
+}
+section > .container h3 {
+  padding-bottom: 1rem;
+}
+section > .container p::after {
+  content: "...";
+  color: #e8003c;
+  padding-top: 1rem;
+  font-size: 4rem;
+  display: block;
+}
