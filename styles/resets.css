@@ -184,7 +184,7 @@ body {
 
 /*---Navigation bar media queries ---*/
 
-@media all and (max-width: 33.75rem) {
+@media all and (max-width: 41rem) {
   .navigation__items {
     height: 0;
     flex-direction: column;
