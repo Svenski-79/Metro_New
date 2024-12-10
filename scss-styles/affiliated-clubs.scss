@@ -20,11 +20,7 @@ section.search-input > .container{
     border-radius: 2rem;
     background-color: rgba(255, 255, 255, 0.803);
     text-align: center;
-    transition: .3s;
-    &:focus {
-        // outline: none;
-        outline-color: #e8e8e8;
-    }
+    // transition: .3s;
     &:hover {
         background-color: white;
     }

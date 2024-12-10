@@ -4,7 +4,7 @@
 
 
 :root {
-    font-size: 14px;
+    font-size: 13px;
 }
 
 h1 {
@@ -71,7 +71,7 @@ section {
         padding-top: 5rem;
         padding-bottom: 5rem;
         margin: 0rem 0rem;
-        max-width: 80rem;
+        max-width: 98rem;
         width: 92%;
     }
 }
@@ -243,7 +243,7 @@ img {
     background-image: linear-gradient(#e40021 35%, #ff0000);
     width: 100px;
     height: 100px;
-    animation: spinning82341 1.7s linear infinite;
+    animation: spinning 1.7s linear infinite;
     text-align: center;
     border-radius: 50px;
     filter: blur(1px);
@@ -258,7 +258,7 @@ img {
     filter: blur(10px);
 }
 
-@keyframes spinning82341 {
+@keyframes spinning {
     to {
         transform: rotate(360deg);
     }
@@ -271,5 +271,5 @@ img {
     box-sizing: border-box;
     max-width: 38rem;
     gap: .8rem;
-    border-radius: 2.1rem;
+    border-radius: 2rem;
 }
