@@ -113,10 +113,6 @@ header h5 {
   opacity: 0.8;
 }
 
-section:nth-child(even) {
-  background-color: #fbf2db;
-}
-
 section {
   min-height: 60rem;
 }

@@ -125,10 +125,6 @@ header {
     }    
 }
 
-section:nth-child(even) {
-    background-color: #fbf2db;
-}
-
 section {
     min-height: 60rem;
     & h1 {
