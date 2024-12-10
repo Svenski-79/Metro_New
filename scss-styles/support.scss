@@ -71,7 +71,7 @@ section {
         padding-top: 5rem;
         padding-bottom: 5rem;
         margin: 0rem 0rem;
-        max-width: 100rem;
+        max-width: 80rem;
         width: 92%;
     }
 }
@@ -82,7 +82,7 @@ footer p {
 }
 
 .secondary-header {
-    min-height: 34rem;
+    min-height: 28rem;
     background:
         linear-gradient(to top, #000000ac, #3439497a),
         url('../assets/header-image.webp') bottom / cover no-repeat;
@@ -95,6 +95,7 @@ footer p {
         display: flex;
         align-items: center;
         justify-content: center;
+        padding-bottom: 4.5rem;
     }
 
     .h-plus {
@@ -261,4 +262,14 @@ img {
     to {
         transform: rotate(360deg);
     }
+}
+
+.card {
+    background-color: white;
+    border: solid lightgray 1px;
+    overflow: hidden;
+    box-sizing: border-box;
+    max-width: 38rem;
+    gap: .8rem;
+    border-radius: 2.1rem;
 }

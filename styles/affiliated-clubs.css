@@ -24,27 +24,23 @@ section.search-input > .container {
   outline-color: #e8e8e8;
 }
 #find-input:hover {
-  box-shadow: 0 0 1rem lightgray;
+  background-color: white;
 }
 
 .card {
-  background-color: white;
-  border: solid lightgray 1px;
-  min-height: 16rem;
-  overflow: hidden;
-  box-sizing: border-box;
-  max-width: 48rem;
+  height: 24rem;
+  max-width: 39rem;
   gap: 0.8rem;
   display: flex;
-  border-radius: 0.8rem;
   width: 100%;
 }
 .card img {
-  border-radius: 1rem;
-  padding: 0.5rem;
+  border-radius: 2rem;
+  padding: 0.8rem;
   -o-object-fit: cover;
      object-fit: cover;
-  width: 40%;
+  aspect-ratio: 1/1;
+  width: 45%;
 }
 .card > div {
   padding: 2rem 2rem 2rem 0rem;
