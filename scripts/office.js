@@ -117,7 +117,7 @@ function createCard(data, targetContainer) {
   memberPosition.classList.add("office__member__position");
   memberPosition.textContent = data.position;
 
-  const memberName = document.createElement("h2");
+  const memberName = document.createElement("h4");
   memberName.classList.add("office__member__name");
   memberName.textContent = data.name;
 
@@ -144,7 +144,7 @@ function createCard(data, targetContainer) {
     memberDescriptionText.classList.add("office__member__info-text");
     memberDescriptionText.textContent = detail;
 
-    memberDescription.append(memberDescriptionIcon, memberDescriptionText);
+    memberDescription.append(memberDescriptionText, memberDescriptionIcon);
     descriptions.push(memberDescription);
   });
 
