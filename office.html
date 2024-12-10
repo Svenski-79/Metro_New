@@ -13,23 +13,52 @@
     <script src="scripts/app.js" defer></script>
 
     <link rel="stylesheet" href="styles/office.css">
+    <link rel="stylesheet" href="styles/support.css">
     <script src="scripts/office.js" defer></script>
     <title>Metropolitan Club</title>
 </head>
 
 <body>
     <nav class="navigation__bar">
+
         <div class="navigation__brand">
-            <img src="./assets/images/favicon.png" alt="Brand Logo" class="navigation__brand__logo" />
+            <img src="./assets/images/favicon.png" alt="Brand Logo" class="navigation__brand__logo">
             <h4 class="navigation__brand__name">Metropolitan Club</h4>
         </div>
 
         <div class="navigation__items__wrapper">
             <ul class="navigation__items">
 
-                <li class="navigation__item --mobile__hide">
+                <li class="navigation__item">
+
+                    <a href="#" class="navigation__item__url --mobile__hide">
+                        <p class="navigation__item__text">About Club</p>
+                    </a>
+
+                    <ul class="navigation__dropdown">
+                        <li class="navigation__dropdown__item">
+                            <a href="" class="navigation__dropdown__url">
+                                <p class="navigation__dropdown__text">About Us</p>
+                            </a>
+                        </li>
+
+                        <li class="navigation__dropdown__item">
+                            <a href="" class="navigation__dropdown__url ">
+                                <p class="navigation__dropdown__text">Office Bearers</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="navigation__item">
                     <a href="#" class="navigation__item__url">
-                        <p class="navigation__item__text --drop-downable">Explore</p>
+                        <p class="navigation__item__text">Facilites</p>
+                    </a>
+                </li>
+
+                <li class="navigation__item">
+                    <a href="#" class="navigation__item__url --mobile__hide">
+                        <p class="navigation__item__text">Explore</p>
                     </a>
 
                     <ul class="navigation__dropdown">
@@ -41,24 +70,11 @@
 
                         <li class="navigation__dropdown__item">
                             <a href="" class="navigation__dropdown__url">
-                                <p class="navigation__dropdown__text">Office Bearers</p>
+                                <p class="navigation__dropdown__text">Latest Events</p>
                             </a>
                         </li>
                     </ul>
                 </li>
-
-                <li class="navigation__item">
-                    <a href="" class="navigation__item__url">
-                        <p class="navigation__item__text">Latest Events</p>
-                    </a>
-                </li>
-
-                <li class="navigation__item">
-                    <a href="#" class="navigation__item__url">
-                        <p class="navigation__item__text">Facilites</p>
-                    </a>
-                </li>
-
 
                 <li class="navigation__item">
                     <a href="#" class="navigation__item__url">
@@ -71,17 +87,20 @@
                         <p class="navigation__item__text">Contact</p>
                     </a>
                 </li>
+
             </ul>
             <div class="navigation__hamburger__icon">
                 <div class="navigation__hamburger__lines"></div>
             </div>
         </div>
     </nav>
+    <header class="secondary-header">
+        <div class="container">
+          <h1>Office Bearers</h1>
+        </div>
+      </header>
 
     <main class="office__bearers">
-        <div class="title__background">
-            <h1 class="title__heading">Office Bearers</h1>
-        </div>
 
         <div class="office__container">
 
