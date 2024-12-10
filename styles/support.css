@@ -47,7 +47,7 @@ p {
 
 body {
   position: relative;
-  background-color: #e8e8e8;
+  background-color: #f6f5f0;
   overflow-x: hidden;
 }
 
@@ -69,6 +69,10 @@ section .container {
   margin: 0rem 0rem;
   max-width: 98rem;
   width: 92%;
+}
+header:nth-child(even),
+section:nth-child(even) {
+  background-color: #e8e8e8;
 }
 
 nav p,
@@ -243,10 +247,9 @@ img {
 }
 .card {
   background-color: white;
-  border: solid lightgray 1px;
+  border: solid rgba(211, 211, 211, 0.516) 1px;
   overflow: hidden;
   box-sizing: border-box;
-  max-width: 38rem;
   gap: 0.8rem;
   border-radius: 2rem;
 }
