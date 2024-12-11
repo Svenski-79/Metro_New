@@ -2,116 +2,114 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="styles/resets.css" />
-  <link rel="stylesheet" href="styles/support.css" />
-  <link rel="stylesheet" href="styles/affiliated-clubs.css" />
-  <script src="scripts/app.js" defer></script>
-  <title>Affiliated Clubs</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles/resets.css" />
+    <link rel="stylesheet" href="styles/support.css" />
+    <link rel="stylesheet" href="styles/affiliated-clubs.css" />
+    <script src="scripts/app.js" defer></script>
+    <title>Affiliated Clubs</title>
 </head>
 
 <body>
-  <script src="scripts/loader.js"></script>
-  <nav class="navigation__bar">
-    <div class="navigation__brand">
-            <a href="index.html">
-              <img src="./assets/images/metro.svg" alt="Brand Logo" class="navigation__brand__logo" />
-              <h4 class="navigation__brand__name">Metropolitan Club</h4>
-            </a>
-    </div>
+    <script src="scripts/loader.js"></script>
+    <nav class="navigation__bar">
+        <a class="navigation__brand" href="index.html">
+            <img src="./assets/images/metro.svg" alt="Brand Logo" class="navigation__brand__logo" />
+            <h4 class="navigation__brand__name">Metropolitan Club</h4>
+        </a>
 
-    <div class="navigation__items__wrapper">
-      <ul class="navigation__items">
+        <div class="navigation__items__wrapper">
+            <ul class="navigation__items">
 
-        <li class="navigation__item --mobile__hide">
-          <a href="#" class="navigation__item__url">
-            <p class="navigation__item__text --drop-downable">Explore</p>
-          </a>
+                <li class="navigation__item --mobile__hide">
+                    <a href="#" class="navigation__item__url">
+                        <p class="navigation__item__text --drop-downable">Explore</p>
+                    </a>
 
-          <ul class="navigation__dropdown">
-            <li class="navigation__dropdown__item">
-              <a href="affiliated-clubs.html" class="navigation__dropdown__url">
-                <p class="navigation__dropdown__text">Affliated Clubs</p>
-              </a>
-            </li>
+                    <ul class="navigation__dropdown">
+                        <li class="navigation__dropdown__item">
+                            <a href="affiliated-clubs.html" class="navigation__dropdown__url">
+                                <p class="navigation__dropdown__text">Affliated Clubs</p>
+                            </a>
+                        </li>
 
-            <li class="navigation__dropdown__item">
-              <a href="office-bearers.html" class="navigation__dropdown__url">
-                <p class="navigation__dropdown__text">Office Bearers</p>
-              </a>
-            </li>
-            <li class="navigation__dropdown__item">
-              <a href="nearby-attractions.html" class="navigation__dropdown__url">
-                <p class="navigation__dropdown__text">Nearby attractions</p>
-              </a>
-            </li>
-          </ul>
-        </li>
+                        <li class="navigation__dropdown__item">
+                            <a href="office-bearers.html" class="navigation__dropdown__url">
+                                <p class="navigation__dropdown__text">Office Bearers</p>
+                            </a>
+                        </li>
+                        <li class="navigation__dropdown__item">
+                            <a href="nearby-attractions.html" class="navigation__dropdown__url">
+                                <p class="navigation__dropdown__text">Nearby attractions</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
 
-        <li class="navigation__item">
-          <a href="latest-events.html" class="navigation__item__url">
-            <p class="navigation__item__text">Latest Events</p>
-          </a>
-        </li>
+                <li class="navigation__item">
+                    <a href="latest-events.html" class="navigation__item__url">
+                        <p class="navigation__item__text">Latest Events</p>
+                    </a>
+                </li>
 
-        <li class="navigation__item">
-          <a href="facilities.html" class="navigation__item__url">
-            <p class="navigation__item__text">Facilites</p>
-          </a>
-        </li>
+                <li class="navigation__item">
+                    <a href="facilities.html" class="navigation__item__url">
+                        <p class="navigation__item__text">Facilites</p>
+                    </a>
+                </li>
 
 
-        <li class="navigation__item">
-          <a href="membership.html" class="navigation__item__url">
-            <p class="navigation__item__text">Memberships</p>
-          </a>
-        </li>
+                <li class="navigation__item">
+                    <a href="membership.html" class="navigation__item__url">
+                        <p class="navigation__item__text">Memberships</p>
+                    </a>
+                </li>
 
-        <li class="navigation__item">
-          <a href="contacts.html" class="navigation__item__url">
-            <p class="navigation__item__text">Contact</p>
-          </a>
-        </li>
-      </ul>
-      <div class="navigation__hamburger__icon">
-        <div class="navigation__hamburger__lines"></div>
-      </div>
-    </div>
-  </nav>
-  <header class="secondary-header">
-    <div class="container">
-      <h1>Affiliated Clubs</h1>
-      <input type="text" id="find-input" placeholder="Search Clubs" />
-      <h6>Found <span id="search-results-count">##</span> results.</h6>
-    </div>
-  </header>
+                <li class="navigation__item">
+                    <a href="contacts.html" class="navigation__item__url">
+                        <p class="navigation__item__text">Contact</p>
+                    </a>
+                </li>
+            </ul>
+            <div class="navigation__hamburger__icon">
+                <div class="navigation__hamburger__lines"></div>
+            </div>
+        </div>
+    </nav>
+    <header class="secondary-header">
+        <div class="container">
+            <h1>Affiliated Clubs</h1>
+            <input type="text" id="find-input" placeholder="Search Clubs" />
+            <h6>Found <span id="search-results-count">##</span> results.</h6>
+        </div>
+    </header>
 
-  <main>
-    <section>
-      <div id="card-board" class="container"></div>
-    </section>
-  </main>
+    <main>
+        <section>
+            <div id="card-board" class="container"></div>
+        </section>
+    </main>
 
-  <footer class="footer">
-    <div class="footer__icon__container">
-      <a href="" class="footer__icon__link"><img class="footer__icon" src="assets/images/facebook-white.svg"
-          alt="Facebook Icon" /></a>
-      <a href="" class="footer__icon__link"><img class="footer__icon" src="assets/images/email-white.svg"
-          alt="Email Icon" /></a>
-      <a href="" class="footer__icon__link"><img class="footer__icon" src="assets/images/phone-white.svg"
-          alt="Phone Icon" /></a>
-    </div>
-    <p class="copyright__fineprint">
-      ©2024 Metropolitan Club and Cultural Forum. All Rights Reserved
-    </p>
-  </footer>
-  <script src="scripts/affiliated-clubs.js"></script>
+    <footer class="footer">
+        <div class="footer__icon__container">
+            <a href="" class="footer__icon__link"><img class="footer__icon" src="assets/images/facebook-white.svg"
+                    alt="Facebook Icon" /></a>
+            <a href="" class="footer__icon__link"><img class="footer__icon" src="assets/images/email-white.svg"
+                    alt="Email Icon" /></a>
+            <a href="" class="footer__icon__link"><img class="footer__icon" src="assets/images/phone-white.svg"
+                    alt="Phone Icon" /></a>
+        </div>
+        <p class="copyright__fineprint">
+            ©2024 Metropolitan Club and Cultural Forum. All Rights Reserved
+        </p>
+    </footer>
+    <script src="scripts/affiliated-clubs.js"></script>
 </body>
 
 </html>
