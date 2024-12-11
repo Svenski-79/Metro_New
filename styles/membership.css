@@ -2,23 +2,20 @@
   margin-top: 6.3rem;
   background-color: var(--primary-clr);
 }
-
-.membership__content {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  flex-wrap: wrap;
-  padding-block: 3rem;
-  padding-inline: 2rem;
-  margin: 0 auto;
-  text-align: left;
-  background: rgb(255, 185, 0);
+.membership__section {
   background: linear-gradient(
     80deg,
     rgba(255, 185, 0, 1) 0%,
     rgba(255, 222, 74, 1) 49%,
     rgba(255, 185, 0, 1) 100%
   );
+}
+.membership__content {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 4rem;
 }
 
 .membership__highlight {

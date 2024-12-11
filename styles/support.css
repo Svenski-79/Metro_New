@@ -1,48 +1,55 @@
 :root {
-  font-size: 13px;
+  font-size: 16px;
+  --fs-p: 1rem;
+  --fs-h6: 1rem;
+  --fs-h5: 1.275rem;
+  --fs-h4: 1.575rem;
+  --fs-h3: 1.9rem;
+  --fs-h2: 2.25rem;
+  --fs-h1: 2.6rem;
 }
 
 h1 {
   padding-bottom: 0.5em;
   font-weight: 800;
-  font-size: 2.5rem;
+  font-size: var(--fs-h1);
 }
 
 h2 {
   padding-bottom: 0.5em;
   font-weight: bold;
-  font-size: 2.2rem;
+  font-size: var(--fs-h2);
 }
 
 h3 {
   padding-bottom: 0.5em;
   font-weight: bold;
-  font-size: 1.9rem;
+  font-size: var(--fs-h3);
 }
 
 h4 {
   padding-bottom: 0.5em;
   font-weight: bold;
-  font-size: 1.6rem;
+  font-size: var(--fs-h4);
 }
 
 h5 {
   padding-bottom: 0.5em;
   font-weight: bold;
-  font-size: 1.3rem;
+  font-size: var(--fs-h5);
 }
 
 h6 {
   padding-bottom: 0.5em;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: var(--fs-h6);
 }
 
 p {
   padding-bottom: 0.5em;
   color: rgb(79, 79, 79);
-  line-height: 1.6em;
-  font-size: 1rem;
+  line-height: 1.4em;
+  font-size: var(--fs-p);
 }
 
 body {
@@ -61,12 +68,12 @@ section {
 }
 header .container,
 section .container {
-  padding-block: 5rem;
+  padding-block: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0rem 0rem;
-  max-width: 98rem;
+  max-width: 86rem;
   width: 92%;
 }
 header:nth-child(even),

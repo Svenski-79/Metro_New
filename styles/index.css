@@ -81,7 +81,6 @@ header #slide-image-over {
 }
 header .container {
   margin: 0;
-  padding-bottom: 8rem !important;
   max-width: none;
   width: 100% !important;
   -webkit-backdrop-filter: blur(0rem);
@@ -139,7 +138,7 @@ header h5 {
 }
 
 section {
-  min-height: 60rem;
+  min-height: 52rem;
 }
 section h1 {
   color: #2b2d43;
@@ -271,7 +270,7 @@ section h5 {
 #affiliated-clubs img {
   padding-top: 4rem;
   width: 100%;
-  max-width: 80rem;
+  max-width: 64rem;
 }
 #affiliated-clubs .btn {
   left: 0;

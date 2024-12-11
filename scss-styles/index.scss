@@ -87,7 +87,6 @@ header {
 
     & .container {
         margin: 0;
-        padding-bottom: 8rem !important;
         max-width: none;
         width: 100% !important;
         -webkit-backdrop-filter: blur(0rem);
@@ -152,7 +151,7 @@ header {
 }
 
 section {
-    min-height: 60rem;
+    min-height: 52rem;
     & h1 {
         color: #2b2d43;
         padding-bottom: 3rem;
@@ -302,7 +301,7 @@ section {
     & img {
         padding-top: 4rem;
         width: 100%;
-        max-width: 80rem;
+        max-width: 64rem;
     }
     & .btn {
         left: 0;

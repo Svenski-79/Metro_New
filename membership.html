@@ -10,6 +10,7 @@
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles/resets.css">
+    <link rel="stylesheet" href="styles/support.css">
     <link rel="stylesheet" href="styles/membership.css">
     <script src="scripts/membership.js" defer></script>
     <script src="scripts/app.js" defer></script>
@@ -94,23 +95,25 @@
             </div>
         </div>
 
-        <div class="membership__content">
+        <section class="membership__section">
+            <div class="container membership__content">
+                <div class="membership__highlight">
+                    <img class="membership__club-logo" src="assets/images/favicon.png" alt="Metropolitan club logo">
+                    <h4 class="membership__duration">Membership of a Lifetime,<br>
+                        Now and forever!!!</h4>
+                    <p class="membership__fineprint">*Contact our representatives for further details.</p>
+                </div>
 
-            <div class="membership__highlight">
-                <img class="membership__club-logo" src="assets/images/favicon.png" alt="Metropolitan club logo">
-                <h4 class="membership__duration">Membership of a Lifetime,<br>
-                    Now and forever!!!</h4>
-                <p class="membership__fineprint">*Contact our representatives for further details.</p>
+                <div class="membership__perks">
+                    <p class="membership__privileges">Unlock your access to <br>
+                        <span class="membership__text--highlight">exclusive club events and privileges.</span>
+                    </p>
+                    <h1 class="membership__join-us">JOIN<br>WITH US</h1>
+                    <button class="membership__form__download">Download Form</button>
+                </div>
             </div>
 
-            <div class="membership__perks">
-                <p class="membership__privileges">Unlock your access to <br>
-                    <span class="membership__text--highlight">exclusive club events and privileges.</span>
-                </p>
-                <h1 class="membership__join-us">JOIN<br>WITH US</h1>
-                <button class="membership__form__download">Download Form</button>
-            </div>
-        </div>
+        </section>
 
         <div class="scroller " data-direction="left" data-speed="slow" data-count=15>
             <div class="scroller__inner">
@@ -124,8 +127,8 @@
         </div>
     </main>
 
-    <footer class="footer">
-        <div class="footer__icon__container --background-clr">
+    <footer class="footer --background-clr">
+        <div class="footer__icon__container">
             <a href="" class="footer__icon__link"><img class="footer__icon" src="assets/images/facebook-white.svg"
                     alt="Facebook Icon" /></a>
             <a href="" class="footer__icon__link"><img class="footer__icon" src="assets/images/email-white.svg"
