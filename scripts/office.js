@@ -90,8 +90,8 @@ const officeData = [
     details: ["4534234590", "name@gmail.com", "1029384756"],
   },
 ];
-const mailIconPath = "../assets/images/iconmonstr-email-10.svg";
-const phoneIconPath = "../assets/images/iconmonstr-phone-8.svg";
+const mailIconPath = "../assets/images/email-red.svg";
+const phoneIconPath = "../assets/images/phone-red.svg";
 const officeContainer = document.querySelector(".office__container");
 
 function createCard(data, targetContainer) {

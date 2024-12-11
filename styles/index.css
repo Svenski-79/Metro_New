@@ -100,7 +100,7 @@ header .container > * {
 header .container .icon {
   padding-top: 3rem;
   opacity: 0.3;
-  width: 7rem;
+  width: 6rem;
   animation: bounce 4s infinite;
 }
 header .carousel-container {
