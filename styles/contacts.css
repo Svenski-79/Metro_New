@@ -16,10 +16,12 @@
     display: none;
     width: 0;
 }
-
 section {
     overflow: hidden;
     flex-direction: column;
+}
+section .container {
+    padding-block: 2rem;
 }
 
 .contact__card {
