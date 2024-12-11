@@ -25,39 +25,34 @@ section .container {
 }
 
 .contact__card {
-    width: 16rem;
-    height: 14rem;
+    width: 18rem;
+    height: 18rem;
     flex:  0 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.5rem;
     text-align: center;
-    padding: 1.5rem;
-    max-width: 15rem;
+    padding: 2.5rem;
     border-radius: 1rem;
     box-shadow: var(--drop-shadow-dark);
 }
 
 .contact__card__img {
-    aspect-ratio: 1/1;
+    height: 8rem;
+    object-fit: contain;
     max-width: 2.8rem;
+    padding-bottom: 2rem;
 }
 
 .contact__card__title {
-    font-size: large;
+    font-size: 1.4rem;
 }
 
-
-@media screen and (max-width: 768px) {
-
-    .contact__cards__container {
-        justify-content: unset;
-    }
-}
 
 .get-in-touch__info {
+    min-width: 600px;
     display: flex;
+    width: 80%;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
@@ -67,8 +62,10 @@ section .container {
 
 #get-in-touch__map {
     flex: 1 1 0;
+    border-radius: 1rem;
+    box-shadow: 0 0 .2rem rgba(0, 0, 0, 0.2);
     align-self: stretch;
-    max-width: 30rem;
+    max-width: 60rem;
     min-height: 20rem;
 }
 
@@ -77,7 +74,7 @@ section .container {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    max-width: 20rem;
+    /* max-width: 20rem; */
 }
 
 #get-in-touch__message {
@@ -109,4 +106,12 @@ section .container {
     color: #ef233c;
     background-color: white;
     outline: 1px solid #ef233c;
+}
+
+@media screen and (max-width: 666px) {
+    .get-in-touch__info {
+        min-width: unset;
+        width: min(100%, 444px);
+        flex-direction: column-reverse;
+    }
 }
