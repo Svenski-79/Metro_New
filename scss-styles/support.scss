@@ -1,5 +1,5 @@
 * {
-    // border: solid 1px red;
+    border: solid 1px red;
 }
 
 
@@ -63,13 +63,12 @@ section {
     justify-content: center;
     align-items: center;
     width: 100vw;
-
+    
     & .container {
+        padding-block: 5rem;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-top: 5rem;
-        padding-bottom: 5rem;
         margin: 0rem 0rem;
         max-width: 98rem;
         width: 92%;

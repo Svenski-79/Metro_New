@@ -22,11 +22,30 @@
     opacity: 0;
   }
 }
+@keyframes bounce {
+  0% {
+    opacity: 0;
+    transform: translateY(0%);
+  }
+  10% {
+    opacity: 0.4;
+  }
+  50% {
+    transform: translateY(20%);
+  }
+  85% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(15%);
+  }
+}
 header {
   overflow: hidden;
   position: relative;
   background-color: black;
-  height: 100vh !important;
+  height: 100vh;
   display: flex;
   align-items: end;
 }
@@ -78,14 +97,20 @@ header .container > * {
   padding-left: 2rem;
   max-width: 100rem;
 }
+header .container .icon {
+  padding-top: 3rem;
+  opacity: 0.3;
+  width: 7rem;
+  animation: bounce 4s infinite;
+}
 header .carousel-container {
   width: 100%;
-  background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.3), transparent);
+  background: linear-gradient(to right, transparent, rgba(133, 133, 133, 0.5), transparent);
   border-radius: 0.5rem;
 }
 header .carousel-container p {
   margin: auto;
-  padding: 3rem;
+  padding: 2rem;
   text-align: center;
   line-height: 1.8em;
   color: white !important;
