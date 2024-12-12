@@ -77,8 +77,8 @@ $(document).ready(function () {
   );
 
   const slideSRC = [
-    ".assets/index/slides/slide-1.webp",
-    ".assets/index/slides/slide-2.jpg",
+    "./assets/index/slides/slide-1.webp",
+    "./assets/index/slides/slide-2.jpg",
   ];
   const slideCount = slideSRC.length;
   let slideNumber = -1;
