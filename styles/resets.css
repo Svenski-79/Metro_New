@@ -117,7 +117,7 @@ body {
 
 .--drop-downable::before {
   position: absolute;
-  content: url("../assets/icons/dropdown.svg");
+  content: url("../.assets/icons/dropdown.svg");
   top: 50%;
   right: -1.1rem;
   height: 1rem;

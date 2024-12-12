@@ -1,65 +1,65 @@
 [
-    {
-        "attraction": "Cherai Beach",
-        "location": "Kochi, Kerala",
-        "distance": "4km",
-        "image": "assets/attractions/cherai-beach.webp",
-        "description": "Cherai Beach is a picturesque beach located in Kochi, Kerala. Known for its serene waters and golden sands, it is a popular destination for both locals and tourists."
-    },
-    {
-        "attraction": "Muziris Heritage And Ancient INDO GERMAN PORT",
-        "location": "Kodungallur, Kerala",
-        "distance": "4km",
-        "image": "assets/attractions/muziris-heritage.webp",
-        "description": "Muziris Heritage and Ancient Indo-German Port is a historical site located in Kodungallur, Kerala. It offers a glimpse into the ancient trade routes and cultural exchanges between India and Europe."
-    },
-    {
-        "attraction": "Kottayil Kovilakam",
-        "location": "Chendamangalam, Kerala",
-        "distance": "5km",
-        "image": "assets/attractions/kottayil-kovilakam.webp",
-        "description": "Kottayil Kovilakam is a historic palace located in Chendamangalam, Kerala. It is known for its architectural beauty and cultural significance."
-    },
-    {
-        "attraction": "St Thomas Kottakavu Forane Church",
-        "location": "North Paravur, Kerala",
-        "distance": "1km",
-        "image": "assets/attractions/st-thomas-church.webp",
-        "description": "St Thomas Kottakavu Forane Church is one of the oldest churches in India, located in North Paravur, Kerala. It is a significant religious site for Christians."
-    },
-    {
-        "attraction": "Mookambika Temple",
-        "location": "North Paravur, Kerala",
-        "distance": "1km",
-        "image": "assets/attractions/mookambika-temple.webp",
-        "description": "Mookambika Temple is a revered Hindu temple located in North Paravur, Kerala. It is dedicated to Goddess Mookambika and attracts devotees from all over."
-    },
-    {
-        "attraction": "Jews Synagogue",
-        "location": "North Paravur, Kerala",
-        "distance": "1km",
-        "image": "assets/attractions/jews-synagogue.webp",
-        "description": "The Jews Synagogue in North Paravur, Kerala, is a historic place of worship for the Jewish community. It reflects the rich cultural heritage of the region."
-    },
-    {
-        "attraction": "District Court of 1875, (In Gothic Style)",
-        "location": "North Paravur, Kerala",
-        "distance": "1km",
-        "image": "assets/attractions/district-court.webp",
-        "description": "The District Court of 1875 in North Paravur, Kerala, is an architectural marvel built in Gothic style. It stands as a testament to the colonial history of the region."
-    },
-    {
-        "attraction": "Cochin International Airport",
-        "location": "Kochi, Kerala",
-        "distance": "25km",
-        "image": "assets/attractions/cochin-airport.webp",
-        "description": "Cochin International Airport is a major airport located in Kochi, Kerala. It serves as a gateway to the state and connects it to various domestic and international destinations."
-    },
-    {
-        "attraction": "Guruvayur Temple",
-        "location": "Guruvayur, Kerala",
-        "distance": "60km",
-        "image": "assets/attractions/guruvayur-temple.webp",
-        "description": "Guruvayoor Temple is a famous Hindu temple located in Guruvayoor, Kerala. It is dedicated to Lord Krishna and is one of the most important pilgrimage sites in South India."
-    }
+  {
+    "attraction": "Cherai Beach",
+    "location": "Kochi, Kerala",
+    "distance": "4km",
+    "image": ".assets/attractions/cherai-beach.webp",
+    "description": "Cherai Beach is a picturesque beach located in Kochi, Kerala. Known for its serene waters and golden sands, it is a popular destination for both locals and tourists."
+  },
+  {
+    "attraction": "Muziris Heritage And Ancient INDO GERMAN PORT",
+    "location": "Kodungallur, Kerala",
+    "distance": "4km",
+    "image": ".assets/attractions/muziris-heritage.webp",
+    "description": "Muziris Heritage and Ancient Indo-German Port is a historical site located in Kodungallur, Kerala. It offers a glimpse into the ancient trade routes and cultural exchanges between India and Europe."
+  },
+  {
+    "attraction": "Kottayil Kovilakam",
+    "location": "Chendamangalam, Kerala",
+    "distance": "5km",
+    "image": ".assets/attractions/kottayil-kovilakam.webp",
+    "description": "Kottayil Kovilakam is a historic palace located in Chendamangalam, Kerala. It is known for its architectural beauty and cultural significance."
+  },
+  {
+    "attraction": "St Thomas Kottakavu Forane Church",
+    "location": "North Paravur, Kerala",
+    "distance": "1km",
+    "image": ".assets/attractions/st-thomas-church.webp",
+    "description": "St Thomas Kottakavu Forane Church is one of the oldest churches in India, located in North Paravur, Kerala. It is a significant religious site for Christians."
+  },
+  {
+    "attraction": "Mookambika Temple",
+    "location": "North Paravur, Kerala",
+    "distance": "1km",
+    "image": ".assets/attractions/mookambika-temple.webp",
+    "description": "Mookambika Temple is a revered Hindu temple located in North Paravur, Kerala. It is dedicated to Goddess Mookambika and attracts devotees from all over."
+  },
+  {
+    "attraction": "Jews Synagogue",
+    "location": "North Paravur, Kerala",
+    "distance": "1km",
+    "image": ".assets/attractions/jews-synagogue.webp",
+    "description": "The Jews Synagogue in North Paravur, Kerala, is a historic place of worship for the Jewish community. It reflects the rich cultural heritage of the region."
+  },
+  {
+    "attraction": "District Court of 1875, (In Gothic Style)",
+    "location": "North Paravur, Kerala",
+    "distance": "1km",
+    "image": ".assets/attractions/district-court.webp",
+    "description": "The District Court of 1875 in North Paravur, Kerala, is an architectural marvel built in Gothic style. It stands as a testament to the colonial history of the region."
+  },
+  {
+    "attraction": "Cochin International Airport",
+    "location": "Kochi, Kerala",
+    "distance": "25km",
+    "image": ".assets/attractions/cochin-airport.webp",
+    "description": "Cochin International Airport is a major airport located in Kochi, Kerala. It serves as a gateway to the state and connects it to various domestic and international destinations."
+  },
+  {
+    "attraction": "Guruvayur Temple",
+    "location": "Guruvayur, Kerala",
+    "distance": "60km",
+    "image": ".assets/attractions/guruvayur-temple.webp",
+    "description": "Guruvayoor Temple is a famous Hindu temple located in Guruvayoor, Kerala. It is dedicated to Lord Krishna and is one of the most important pilgrimage sites in South India."
+  }
 ]
