@@ -18,7 +18,7 @@ const officeData = [
     details: ["4534234590", "name@gmail.com", "1029384756"],
   },
   {
-    imageUrl: "./assets/office/Satheesh.jpeg",
+    imageUrl: "./assets/office/satheesh.jpeg",
     name: "Sathesh K S",
     position: "Vice President",
     details: ["4534234590", "name@gmail.com", "1029384756"],
@@ -90,8 +90,8 @@ const officeData = [
     details: ["4534234590", "name@gmail.com", "1029384756"],
   },
 ];
-const mailIconPath = "../assets/images/email-red.svg";
-const phoneIconPath = "../assets/images/phone-red.svg";
+const mailIconPath = "./assets/images/email-red.svg";
+const phoneIconPath = "./assets/images/phone-red.svg";
 const officeContainer = document.querySelector(".office__container");
 
 function createCard(data, targetContainer) {
