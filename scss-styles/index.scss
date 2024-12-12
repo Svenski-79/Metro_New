@@ -176,7 +176,7 @@ section {
       rgba(169, 0, 0, 0.9),
       rgba(255, 86, 86, 0.75)
     ),
-    url("../.assets/index/about-us.webp") no-repeat center center;
+    url("../assets/index/about-us.webp") no-repeat center center;
   background-size: cover;
 
   min-height: 24rem;
@@ -277,7 +277,7 @@ section {
   overflow: hidden;
   text-align: left;
   align-items: flex-start;
-  background: url(../.assets/index/clubs-bg.svg) bottom center / contain
+  background: url(../assets/index/clubs-bg.svg) bottom center / contain
       no-repeat,
     linear-gradient(to left, rgb(255, 231, 231), #00000000, rgb(255, 227, 227));
   align-items: end;

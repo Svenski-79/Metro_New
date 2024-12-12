@@ -1,97 +1,97 @@
 const officeData = [
   {
-    imageUrl: "./.assets/office/job.jpg",
+    imageUrl: "./assets/office/job.jpg",
     name: "M A Job",
     position: "President",
     details: ["4534234590", "name@gmail.com", "1029384756"],
   },
   {
-    imageUrl: "./.assets/office/praveen k.jpeg",
+    imageUrl: "./assets/office/praveen k.jpeg",
     name: "Praveen K",
     position: "Secretary",
     details: ["4534234590", "name@gmail.com", "1029384756"],
   },
   {
-    imageUrl: "./.assets/office/sumesh k n.jpeg",
+    imageUrl: "./assets/office/sumesh k n.jpeg",
     name: "Sumesh K N",
     position: "Treasurer",
     details: ["4534234590", "name@gmail.com", "1029384756"],
   },
   {
-    imageUrl: "./.assets/office/Satheesh.jpeg",
+    imageUrl: "./assets/office/Satheesh.jpeg",
     name: "Sathesh K S",
     position: "Vice President",
     details: ["4534234590", "name@gmail.com", "1029384756"],
   },
   {
-    imageUrl: "./.assets/office/varghese.jpeg",
+    imageUrl: "./assets/office/varghese.jpeg",
     name: "Varghese K M",
     position: "Vice President",
     details: ["4534234590", "name@gmail.com", "1029384756"],
   },
   {
-    imageUrl: "./.assets/office/manoj.jpeg",
+    imageUrl: "./assets/office/manoj.jpeg",
     name: "Manoj Kumar T S",
     position: "Joint Secretary",
     details: ["4534234590", "name@gmail.com", "1029384756"],
   },
   {
-    imageUrl: "./.assets/office/selvin.jpeg",
+    imageUrl: "./assets/office/selvin.jpeg",
     name: "Selvin R Thaikoottathil",
     position: "Joint Secretary",
     details: ["4534234590", "name@gmail.com", "1029384756"],
   },
   {
-    imageUrl: "./.assets/office/ajith.jpg",
+    imageUrl: "./assets/office/ajith.jpg",
     name: "Ajith Panikkassery",
     position: "Council Member",
     details: ["4534234590", "name@gmail.com", "1029384756"],
   },
   {
-    imageUrl: "./.assets/office/anil.jpeg",
+    imageUrl: "./assets/office/anil.jpeg",
     name: "Anil Kumar M P",
     position: "Council Member",
     details: ["4534234590", "name@gmail.com", "1029384756"],
   },
   {
-    imageUrl: "./.assets/office/ashokpk.jpeg",
+    imageUrl: "./assets/office/ashokpk.jpeg",
     name: "Dr. Ashok P K",
     position: "Council Member",
     details: ["4534234590", "name@gmail.com", "1029384756"],
   },
   {
-    imageUrl: "./.assets/office/joy thomas.jpeg",
+    imageUrl: "./assets/office/joy thomas.jpeg",
     name: "Joy Thomas",
     position: "Council Member",
     details: ["4534234590", "name@gmail.com", "1029384756"],
   },
   {
-    imageUrl: "./.assets/office/madhu p m.jpeg",
+    imageUrl: "./assets/office/madhu p m.jpeg",
     name: "Madhu P M",
     position: "Council Member",
     details: ["4534234590", "name@gmail.com", "1029384756"],
   },
   {
-    imageUrl: "./.assets/office/anilkumar.jpeg",
+    imageUrl: "./assets/office/anilkumar.jpeg",
     name: "N V AnilKumar",
     position: "Council Member",
     details: ["4534234590", "name@gmail.com", "1029384756"],
   },
   {
-    imageUrl: "./.assets/office/sudheesh.jpeg",
+    imageUrl: "./assets/office/sudheesh.jpeg",
     name: "Sudesh Alapat",
     position: "Council Member",
     details: ["4534234590", "name@gmail.com", "1029384756"],
   },
   {
-    imageUrl: "./.assets/office/tomy.jpeg",
+    imageUrl: "./assets/office/tomy.jpeg",
     name: "Tomy K Varghese",
     position: "Council Member",
     details: ["4534234590", "name@gmail.com", "1029384756"],
   },
 ];
-const mailIconPath = "../.assets/images/email-red.svg";
-const phoneIconPath = "../.assets/images/phone-red.svg";
+const mailIconPath = "../assets/images/email-red.svg";
+const phoneIconPath = "../assets/images/phone-red.svg";
 const officeContainer = document.querySelector(".office__container");
 
 function createCard(data, targetContainer) {
