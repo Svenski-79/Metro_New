@@ -28,13 +28,13 @@
 }
 
 .membership__duration {
-  font-size: 2rem;
+  font-size: var(--fs-h2);
   margin-top: 1.5rem;
   color: var(--primary-clr);
 }
 
 .membership__fineprint {
-  font-size: 0.875rem;
+  font-size: var(--fs-fine-print);
   font-style: italic;
   margin-top: 0.4rem;
   color: #505050;
@@ -49,7 +49,7 @@
 }
 
 .membership__privileges {
-  font-size: 1.125rem;
+  font-size: var(--fs-h5);
   font-weight: 600;
 }
 
@@ -67,7 +67,7 @@
 .membership__form__download {
   display: block;
   max-width: fit-content;
-  font-size: 1.125rem;
+  font-size: var(--fs-h5);
   font-weight: 500;
   padding: 1rem 1.5rem;
   margin-left: auto;

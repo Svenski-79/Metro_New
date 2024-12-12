@@ -28,7 +28,7 @@ section > .container h3 {
 section > .container p::after {
   content: "...";
   color: #e8003c;
-  padding-top: 1rem;
-  font-size: 4rem;
+  padding-top: 0.7rem;
+  font-size: 3rem;
   display: block;
 }
