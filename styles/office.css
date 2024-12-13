@@ -12,9 +12,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 28rem;
+  gap: min(1.5vw, 1rem);
+  max-width: 26rem;
+  width: 100%;
   height: 15.5rem;
-  padding: 1rem;
+  padding: 0.875rem;
   border-radius: 30px;
   border: 1px solid rgba(204, 204, 204, 0.897);
   background-color: white;
@@ -27,13 +29,15 @@
 
 .office__member__image__container {
   display: flex;
-  max-width: min(10rem, 50%);
+  max-width: 12rem;
+  width: 40%;
   height: 100%;
   border-radius: 14px;
   overflow: hidden;
 }
 
 .office__member__image {
+  width: 100%;
   object-fit: cover;
   object-position: top;
 }
@@ -43,6 +47,8 @@
   flex-direction: column;
   justify-content: center;
   gap: 0.5rem;
+  width: fit-content;
+  margin-top: -1rem;
   padding-inline: 1rem;
 }
 
@@ -63,13 +69,13 @@
   flex-direction: column;
   gap: 0.6rem;
   font-size: var(--fs-h5);
-  padding-block: min(0.84vw, 1rem);
+  /* padding-block: min(0.84vw, 1rem); */
 }
 
 .office__member__info {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: right;
   gap: 0.7rem;
 }
 
@@ -82,15 +88,33 @@
 
 .office__member__info-text {
   padding: 0;
+  color: rgb(72, 72, 72);
 }
 
-@media all and (max-width: 24rem) {
+@media all and (max-width: 26rem) {
   .office__container {
-    max-width: 100%;
+    width: 100% !important;
+    max-width: unset;
   }
 
   .office__member {
     max-width: 100%;
-    margin-inline: 0.5rem;
+    margin-inline: 0.125rem;
+  }
+
+  .office__member__image__container {
+    width: 40%;
+  }
+
+  .office__member__position {
+    font-size: 0.9rem;
+  }
+
+  .office__member__name {
+    font-size: 1.4rem;
+  }
+
+  .office__member__info-text {
+    font-size: 0.9rem;
   }
 }
