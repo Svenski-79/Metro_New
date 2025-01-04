@@ -1,0 +1,12 @@
+#gallery .container {
+  display: grid;
+  grid-template-columns: repeat(autofill, minmax(1fr, 50%));
+}
+
+.card {
+  height: 16rem;
+  width: 12rem;
+}
+.card:first-child {
+  height: 12rem;
+}

@@ -51,7 +51,7 @@ header {
 }
 header #slides {
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   position: absolute;
   width: 100vw;
   height: 100vh;
@@ -62,12 +62,7 @@ header #gradient {
   bottom: 0;
   right: 0;
   left: 0;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.34) 0%,
-    rgba(6, 25, 44, 0.7) 40%,
-    rgba(13, 39, 67, 0.65) 100%
-  );
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.34) 0%, rgba(6, 25, 44, 0.7) 40%, rgba(13, 39, 67, 0.65) 100%);
 }
 header #slide-image {
   position: absolute;
@@ -109,12 +104,7 @@ header .container .icon {
 }
 header .carousel-container {
   width: 100%;
-  background: linear-gradient(
-    to right,
-    transparent,
-    rgba(133, 133, 133, 0.5),
-    transparent
-  );
+  background: linear-gradient(to right, transparent, rgba(133, 133, 133, 0.5), transparent);
   border-radius: 0.5rem;
 }
 header .carousel-container p {
@@ -159,12 +149,7 @@ section h5 {
 }
 
 #about-us {
-  background: linear-gradient(
-      to top,
-      rgba(169, 0, 0, 0.9),
-      rgba(255, 86, 86, 0.75)
-    ),
-    url("../assets/index/about-us.webp") no-repeat center center;
+  background: linear-gradient(to top, rgba(169, 0, 0, 0.9), rgba(255, 86, 86, 0.75)), url("../assets/index/about-us.webp") no-repeat center center;
   background-size: cover;
   min-height: 24rem;
 }
@@ -198,11 +183,7 @@ section h5 {
 
 #facilities {
   text-align: center;
-  background: linear-gradient(
-    to left,
-    rgba(255, 250, 243, 0.7),
-    rgb(255, 255, 255)
-  );
+  background: linear-gradient(to left, rgba(255, 250, 243, 0.7), rgb(255, 255, 255));
 }
 #facilities .container {
   display: flex;
@@ -253,13 +234,7 @@ section h5 {
   overflow: hidden;
   text-align: left;
   align-items: flex-start;
-  background: url(../assets/index/clubs-bg.svg) bottom center/contain no-repeat,
-    linear-gradient(
-      to left,
-      rgb(255, 231, 231),
-      rgba(0, 0, 0, 0),
-      rgb(255, 227, 227)
-    );
+  background: url(../assets/index/clubs-bg.svg) bottom center/contain no-repeat, linear-gradient(to left, rgb(255, 231, 231), rgba(0, 0, 0, 0), rgb(255, 227, 227));
   align-items: end;
 }
 #affiliated-clubs .container {
@@ -305,13 +280,7 @@ section h5 {
 }
 
 #latest-events {
-  background: linear-gradient(
-    to right,
-    #2b2d43,
-    rgb(15, 15, 35),
-    rgb(15, 15, 35),
-    #2b2d43
-  );
+  background: linear-gradient(to right, #2b2d43, rgb(15, 15, 35), rgb(15, 15, 35), #2b2d43);
 }
 #latest-events .container {
   display: flex;
@@ -396,7 +365,7 @@ section h5 {
   width: 50%;
   border-radius: 1rem;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   height: 20rem;
 }
 #latest-events .btn {
@@ -449,7 +418,7 @@ section h5 {
 #tourist-attractions button {
   background-color: red;
   color: white;
-  font-size: var(--fs-h6);
+  font-size: 1rem;
   height: 3rem;
   align-items: center;
   justify-content: center;
