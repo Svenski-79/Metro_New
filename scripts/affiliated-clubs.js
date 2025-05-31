@@ -235,4 +235,16 @@ function loadData() {
 
 loadData();
 
-findInput.oninput = () => loadData();
+// findInput.oninput = () => loadData();
+
+addEventListener("input", debounce(loadData, 350));
+
+function debounce(functionToDebounce, delay) {
+  let timer;
+  return function (...args) {
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      functionToDebounce();
+    }, delay);
+  };
+}
