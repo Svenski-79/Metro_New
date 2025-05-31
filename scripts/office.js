@@ -79,7 +79,7 @@ const officeData = [
     details: ["+91-9847454174", "metroclubparur@gmail.com", "+91-6238540824"],
   },
   {
-    imageUrl: "./assets/office/",
+    imageUrl: "",
 
     name: "Anilkumar R",
 
@@ -88,7 +88,7 @@ const officeData = [
     details: ["+91-9946620701", "metroclubparur@gmail.com", "+91-6238540824"],
   },
   {
-    imageUrl: "./assets/office/",
+    imageUrl: "",
 
     name: "Biju P S",
 
@@ -106,7 +106,7 @@ const officeData = [
     details: ["+91-9846205404", "metroclubparur@gmail.com", "+91-6238540824"],
   },
   {
-    imageUrl: "./assets/office/",
+    imageUrl: "",
 
     name: "Manoharan E M",
 
@@ -124,7 +124,7 @@ const officeData = [
     details: ["+91-9847700452", "metroclubparur@gmail.com", "+91-6238540824"],
   },
   {
-    imageUrl: "./assets/office/",
+    imageUrl: "",
 
     name: "Rajesh K S",
 
@@ -133,7 +133,7 @@ const officeData = [
     details: ["+91-9946903382", "metroclubparur@gmail.com", "+91-6238540824"],
   },
   {
-    imageUrl: "./assets/office/",
+    imageUrl: "",
 
     name: "Sajan C S",
 
@@ -151,7 +151,7 @@ const officeData = [
     details: ["+91-9846038842", "metroclubparur@gmail.com", "+91-6238540824"],
   },
   {
-    imageUrl: "./assets/office/",
+    imageUrl: "     ",
 
     name: "Vinod Govind",
 
@@ -177,8 +177,14 @@ function createCard(data, targetContainer) {
 
   const memberImage = document.createElement("img");
   memberImage.classList.add("office__member__image");
-  memberImage.setAttribute("src", data.imageUrl);
-  memberImage.setAttribute("alt", `${data.name}`);
+  memberImage.setAttribute(
+    "src",
+    !data.imageUrl.trim()
+      ? "./assets/images/personPlaceholder.png"
+      : data.imageUrl
+  );
+  memberImage.setAttribute("alt", `${data.name} image`);
+  memberImage.setAttribute("title", `${data.name}`);
 
   const memberDetailsContainer = document.createElement("div");
   memberDetailsContainer.classList.add("office__member__details");

@@ -1,7 +1,23 @@
+const appealingImages = [
+  "./assets/facilities/badminton.webp",
+  "./assets/facilities/gym.webp",
+  "./assets/facilities/permit-room.webp",
+  "./assets/facilities/pool.webp",
+  "./assets/facilities/rooms.webp",
+  "./assets/facilities/snooker.webp",
+  "./assets/facilities/waiting-area.webp",
+];
+let previousIndex = 0;
 function randomImageGenerator() {
+  let index = Math.floor(Math.random() * (appealingImages.length - 1));
+  while (previousIndex == index) {
+    index = Math.floor(Math.random() * (appealingImages.length - 1));
+  }
+  previousIndex = index;
   const image = document.createElement("img");
   image.setAttribute("draggable", false);
-  image.setAttribute("src", "../assets/facilities/Pool.JPG");
+  // image.setAttribute("src", "./assets/facilities/pool.webp");
+  image.setAttribute("src", appealingImages[index]);
   return image;
 }
 

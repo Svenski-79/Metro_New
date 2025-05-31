@@ -88,7 +88,12 @@ footer p {
 
 .secondary-header {
   min-height: 28rem;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.6745098039), rgba(52, 57, 73, 0.4784313725)), url("../assets/header-image.webp") bottom/cover no-repeat;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.6745098039),
+      rgba(52, 57, 73, 0.4784313725)
+    ),
+    url("../assets/header-image.webp") bottom/cover no-repeat;
   display: flex;
   align-items: end;
 }
@@ -101,7 +106,9 @@ footer p {
   padding-bottom: 4.5rem;
 }
 .secondary-header .h-plus {
-  text-shadow: 0 0 0.5rem rgb(67, 67, 67), 0.5rem 0rem 0 rgba(255, 255, 255, 0.645), -0.5rem 0rem 0 rgba(255, 255, 255, 0.288);
+  text-shadow: 0 0 0.5rem rgb(67, 67, 67),
+    0.5rem 0rem 0 rgba(255, 255, 255, 0.645),
+    -0.5rem 0rem 0 rgba(255, 255, 255, 0.288);
   text-align: center;
   display: flex;
   justify-content: center;
@@ -203,7 +210,7 @@ hr {
 
 img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 @keyframes fade-out {
