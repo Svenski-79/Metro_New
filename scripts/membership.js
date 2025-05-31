@@ -1,7 +1,7 @@
 function randomImageGenerator() {
   const image = document.createElement("img");
   image.setAttribute("draggable", false);
-  image.setAttribute("src", "./assets/facilities/Pool.JPG");
+  image.setAttribute("src", "../assets/facilities/Pool.JPG");
   return image;
 }
 

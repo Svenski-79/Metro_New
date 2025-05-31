@@ -1,93 +1,163 @@
 const officeData = [
   {
     imageUrl: "./assets/office/job.webp",
+
     name: "M A Job",
+
     position: "President",
-    details: ["4534234590", "name@gmail.com", "1029384756"],
+
+    details: ["+91-9744506556", "metroclubparur@gmail.com", "+91-6238540824"],
   },
-  {
-    imageUrl: "./assets/office/praveen k.webp",
-    name: "Praveen K",
-    position: "Secretary",
-    details: ["4534234590", "name@gmail.com", "1029384756"],
-  },
-  {
-    imageUrl: "./assets/office/sumesh-k-n.webp",
-    name: "Sumesh K N",
-    position: "Treasurer",
-    details: ["4534234590", "name@gmail.com", "1029384756"],
-  },
-  {
-    imageUrl: "./assets/office/satheesh.webp",
-    name: "Sathesh K S",
-    position: "Vice President",
-    details: ["4534234590", "name@gmail.com", "1029384756"],
-  },
-  {
-    imageUrl: "./assets/office/varghese.webp",
-    name: "Varghese K M",
-    position: "Vice President",
-    details: ["4534234590", "name@gmail.com", "1029384756"],
-  },
-  {
-    imageUrl: "./assets/office/manoj.webp",
-    name: "Manoj Kumar T S",
-    position: "Joint Secretary",
-    details: ["4534234590", "name@gmail.com", "1029384756"],
-  },
-  {
-    imageUrl: "./assets/office/selvin.webp",
-    name: "Selvin R Thaikoottathil",
-    position: "Joint Secretary",
-    details: ["4534234590", "name@gmail.com", "1029384756"],
-  },
-  {
-    imageUrl: "./assets/office/ajith.webp",
-    name: "Ajith Panikkassery",
-    position: "Council Member",
-    details: ["4534234590", "name@gmail.com", "1029384756"],
-  },
-  {
-    imageUrl: "./assets/office/anil.webp",
-    name: "Anil Kumar M P",
-    position: "Council Member",
-    details: ["4534234590", "name@gmail.com", "1029384756"],
-  },
-  {
-    imageUrl: "./assets/office/ashokpk.webp",
-    name: "Dr. Ashok P K",
-    position: "Council Member",
-    details: ["4534234590", "name@gmail.com", "1029384756"],
-  },
+
   {
     imageUrl: "./assets/office/joy thomas.webp",
+
     name: "Joy Thomas",
+
+    position: "Secretary",
+
+    details: ["+91-9388607729", "metroclubparur@gmail.com", "+91-6238540824"],
+  },
+
+  {
+    imageUrl: "./assets/office/selvin.webp",
+
+    name: "Selvin Thaikoottathil",
+
+    position: "Treasurer",
+
+    details: ["+91-7907204898", "metroclubparur@gmail.com", "+91-9847292445"],
+  },
+
+  {
+    imageUrl: "./assets/office/manoj.webp",
+
+    name: "Manoj T S",
+
+    position: "Vice President",
+
+    details: ["+91-9605070000", "metroclubparur@gmail.com", "+91-6238540824"],
+  },
+
+  {
+    imageUrl: "./assets/office/varghese.webp",
+
+    name: "Varghese K M",
+
+    position: "Vice President",
+
+    details: ["+91-9446802255", "metroclubparur@gmail.com", "+91-6238540824"],
+  },
+
+  {
+    imageUrl: "./assets/office/anil.webp",
+
+    name: "Anil Kumar M P",
+
+    position: "Joint Secretary",
+
+    details: ["+91-9645838382", "metroclubparur@gmail.com", "+91-6238540824"],
+  },
+
+  {
+    imageUrl: "./assets/office/sumesh-k-n.webp",
+
+    name: "Sumesh K N",
+
+    position: "Joint Secretary",
+
+    details: ["+91-9447018302", "metroclubparur@gmail.com", "+91-6238540824"],
+  },
+
+  {
+    imageUrl: "./assets/office/anilkumar.webp",
+
+    name: "AnilKumar N V",
+
     position: "Council Member",
-    details: ["4534234590", "name@gmail.com", "1029384756"],
+
+    details: ["+91-9847454174", "metroclubparur@gmail.com", "+91-6238540824"],
+  },
+  {
+    imageUrl: "./assets/office/",
+
+    name: "Anilkumar R",
+
+    position: "Council Member",
+
+    details: ["+91-9946620701", "metroclubparur@gmail.com", "+91-6238540824"],
+  },
+  {
+    imageUrl: "./assets/office/",
+
+    name: "Biju P S",
+
+    position: "Council Member",
+
+    details: ["+91-9744506556", "metroclubparur@gmail.com", "+91-6238540824"],
   },
   {
     imageUrl: "./assets/office/madhu p m.webp",
+
     name: "Madhu P M",
+
     position: "Council Member",
-    details: ["4534234590", "name@gmail.com", "1029384756"],
+
+    details: ["+91-9846205404", "metroclubparur@gmail.com", "+91-6238540824"],
   },
   {
-    imageUrl: "./assets/office/anilkumar.webp",
-    name: "N V AnilKumar",
+    imageUrl: "./assets/office/",
+
+    name: "Manoharan E M",
+
     position: "Council Member",
-    details: ["4534234590", "name@gmail.com", "1029384756"],
+
+    details: ["+91-9447111452", "metroclubparur@gmail.com", "+91-6238540824"],
   },
   {
-    imageUrl: "./assets/office/sudheesh.webp",
-    name: "Sudesh Alapat",
+    imageUrl: "./assets/office/praveen k.webp",
+
+    name: "Praveen K",
+
     position: "Council Member",
-    details: ["4534234590", "name@gmail.com", "1029384756"],
+
+    details: ["+91-9847700452", "metroclubparur@gmail.com", "+91-6238540824"],
   },
   {
-    imageUrl: "./assets/office/tomy.webp",
-    name: "Tomy K Varghese",
+    imageUrl: "./assets/office/",
+
+    name: "Rajesh K S",
+
     position: "Council Member",
-    details: ["4534234590", "name@gmail.com", "1029384756"],
+
+    details: ["+91-9946903382", "metroclubparur@gmail.com", "+91-6238540824"],
+  },
+  {
+    imageUrl: "./assets/office/",
+
+    name: "Sajan C S",
+
+    position: "Council Member",
+
+    details: ["+91-9744506556", "metroclubparur@gmail.com", "+91-6238540824"],
+  },
+  {
+    imageUrl: "./assets/office/satheesh.webp",
+
+    name: "Satheesh K S",
+
+    position: "Council Member",
+
+    details: ["+91-9846038842", "metroclubparur@gmail.com", "+91-6238540824"],
+  },
+  {
+    imageUrl: "./assets/office/",
+
+    name: "Vinod Govind",
+
+    position: "Council Member",
+
+    details: ["+91-9447111452", "metroclubparur@gmail.com", "+91-6238540824"],
   },
 ];
 const mailIconPath = "./assets/images/email-red.svg";
