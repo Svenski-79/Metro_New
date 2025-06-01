@@ -1,5 +1,4 @@
 :root {
-  font-size: 16px;
   --fs-p: 1rem;
   --fs-h6: 1rem;
   --fs-h5: 1.275rem;
@@ -87,7 +86,7 @@ footer p {
 }
 
 .secondary-header {
-  min-height: 28rem;
+  min-height: 22rem;
   background: linear-gradient(
       to top,
       rgba(0, 0, 0, 0.6745098039),
@@ -103,7 +102,6 @@ footer p {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 4.5rem;
 }
 .secondary-header .h-plus {
   text-shadow: 0 0 0.5rem rgb(67, 67, 67),

@@ -49,12 +49,14 @@ section .container {
 }
 
 .get-in-touch__info {
-  min-width: 600px;
   display: flex;
-  width: 80%;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 2rem;
+  flex-wrap: wrap;
+  min-width: 600px;
+  width: 80%;
   margin: 2rem auto 8rem auto;
   padding: 0.5rem;
 }

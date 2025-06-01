@@ -82,7 +82,7 @@ $(document).ready(function () {
   ];
   const slideCount = slideSRC.length;
   let slideNumber = -1;
-  const slideTime = 16000;
+  const slideTime = 8000;
 
   function autoChangeSlide() {
     slideNumber < slideCount - 1 ? slideNumber++ : (slideNumber = 0);
