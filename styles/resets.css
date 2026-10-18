@@ -5,8 +5,8 @@
   --accent-clr: #ffde4a;
   --text-fineprint-clr: #858585;
   --footer-secondary-clr: #252525;
-  --drop-shadow-dark: rgba(0, 0, 0, 0.19) 0px 10px 14px,
-    rgba(0, 0, 0, 0.23) 0px 6px 12px;
+  --drop-shadow-dark:
+    rgba(0, 0, 0, 0.19) 0px 10px 14px, rgba(0, 0, 0, 0.23) 0px 6px 12px;
 }
 
 /*--- CSS style resets ---*/
@@ -144,7 +144,9 @@ body {
   pointer-events: none;
   opacity: 0;
   transform: translate(-50%);
-  transition: opacity 200ms ease-in-out, transform 200ms ease-in-out;
+  transition:
+    opacity 200ms ease-in-out,
+    transform 200ms ease-in-out;
 }
 
 .navigation__item__text,
@@ -185,7 +187,7 @@ body {
 
 /*---Navigation bar media queries ---*/
 
-@media all and (max-width: 41rem) {
+@media all and (max-width: 42rem) {
   .navigation__items {
     height: 0;
     flex-direction: column;
@@ -209,7 +211,9 @@ body {
     margin-top: 2rem;
     border-radius: 10px;
     background-color: var(--accent-clr);
-    transition: transform 1s ease, opacity 0.3s ease;
+    transition:
+      transform 1s ease,
+      opacity 0.3s ease;
   }
 
   .navigation__hamburger__lines::before,

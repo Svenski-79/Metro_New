@@ -1,5 +1,12 @@
 [
   {
+    "attraction": "St Thomas Kottakavu Forane Church",
+    "location": "North Paravur, Kerala",
+    "distance": "1km",
+    "image": "./assets/attractions/st-thomas-church.webp",
+    "description": "St Thomas Kottakavu Forane Church is one of the oldest churches in India, located in North Paravur, Kerala. It is a significant religious site for Christians."
+  },
+  {
     "attraction": "Cherai Beach",
     "location": "Kochi, Kerala",
     "distance": "4km",
@@ -12,20 +19,6 @@
     "distance": "4km",
     "image": "./assets/attractions/muziris-heritage.webp",
     "description": "Muziris Heritage and Ancient Indo-German Port is a historical site located in Kodungallur, Kerala. It offers a glimpse into the ancient trade routes and cultural exchanges between India and Europe."
-  },
-  {
-    "attraction": "Kottayil Kovilakam",
-    "location": "Chendamangalam, Kerala",
-    "distance": "5km",
-    "image": "./assets/attractions/kottayil-kovilakam.webp",
-    "description": "Kottayil Kovilakam is a historic palace located in Chendamangalam, Kerala. It is known for its architectural beauty and cultural significance."
-  },
-  {
-    "attraction": "St Thomas Kottakavu Forane Church",
-    "location": "North Paravur, Kerala",
-    "distance": "1km",
-    "image": "./assets/attractions/st-thomas-church.webp",
-    "description": "St Thomas Kottakavu Forane Church is one of the oldest churches in India, located in North Paravur, Kerala. It is a significant religious site for Christians."
   },
   {
     "attraction": "Mookambika Temple",
@@ -49,11 +42,39 @@
     "description": "The District Court of 1875 in North Paravur, Kerala, is an architectural marvel built in Gothic style. It stands as a testament to the colonial history of the region."
   },
   {
+    "attraction": "Kottayil Kovilakam",
+    "location": "Chendamangalam, Kerala",
+    "distance": "5km",
+    "image": "./assets/attractions/kottayil-kovilakam.webp",
+    "description": "Kottayil Kovilakam is a historic palace located in Chendamangalam, Kerala. It is known for its architectural beauty and cultural significance."
+  },
+  {
+    "attraction": "Cheraman Juma Masjid",
+    "location": "Kodungallur, Kerala",
+    "distance": "12.8Km",
+    "image": "./assets/attractions/cheraman-juma-masjid.webp",
+    "description": "The Cheraman Juma Masjid is the oldest mosque in India, located in Methala, Kodungallur, in the Thrissur district of Kerala."
+  },
+  {
+    "attraction": "St. Antony's Shrine",
+    "location": "Maliyankara, Chettikkad, Kerala",
+    "distance": "13.2Km",
+    "image": "./assets/attractions/st-antony-shrine.webp",
+    "description": "Chettikkad St.Antony's Shrine known as \"PADUA OF EAST\" with three sacred relics of St.Antony including tongue of the Saint."
+  },
+  {
     "attraction": "Cochin International Airport",
     "location": "Kochi, Kerala",
     "distance": "25km",
     "image": "./assets/attractions/cochin-airport.webp",
     "description": "Cochin International Airport is a major airport located in Kochi, Kerala. It serves as a gateway to the state and connects it to various domestic and international destinations."
+  },
+  {
+    "attraction": "Athirappilly Water Falls",
+    "location": "Athirappilly, Thrissur, Kerala",
+    "distance": "56Km",
+    "image": "./assets/attractions/athirappilly-water-falls.webp",
+    "description": "Athirappilly water falls is the largest waterfall in Kerala. Often referred to as the 'Niagara of India' due to its breathtaking beauty."
   },
   {
     "attraction": "Guruvayur Temple",
