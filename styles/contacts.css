@@ -22,15 +22,14 @@ section .container {
 
 .contact__card {
   max-width: 18rem;
-  aspect-ratio: 4/3.4;
-  flex: 0 0 auto;
+  min-height: 14rem;
   display: flex;
   gap: 0.6rem;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 1.8rem;
+  padding: 2rem 2rem;
   border-radius: 1rem;
   box-shadow: var(--drop-shadow-dark);
   flex: 1 1 100%;
@@ -49,13 +48,6 @@ section .container {
   width: 100%;
   font-size: 1.1rem;
   padding-bottom: 0;
-}
-
-.truncate-text {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  cursor: pointer;
 }
 
 .get-in-touch__info {
